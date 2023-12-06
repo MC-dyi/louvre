@@ -1,18 +1,6 @@
 *{
     box-sizing: border-box;
 }
-.h{
-    margin-left: 200px;
-    margin-bottom: 15px;
-}
-.one{
-    height: 650px;
-}
-.back1{
-    background-size: 100% 100%;
-    background-image: linear-gradient(5deg,#000000aa 20%,transparent),url(../imags/1.png);
-    background-repeat: no-repeat;
-}
 .back2{
     background-size: 100% 100%;
     background-image: linear-gradient(5deg,#000000aa 20%,transparent),url(../imags/2.png);
@@ -30,6 +18,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
+    height: 650px;
 
 }
 .nav li{
@@ -42,5 +31,9 @@
 
 }
 .djt{
+    width: 24px;
+    height: 24px;
+    pointer-events: none;
+    fill: currentColor;
     float: right;
 }

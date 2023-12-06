@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto/Roboto-Medium-12.ttf);
+}
+.alaune{
+    font: 200 70px LouvreSerif,Georgia, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+.h{
+    margin-left: 200px;
+    margin-bottom: 15px;
+}
