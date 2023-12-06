@@ -3,14 +3,31 @@
     src: url(../font/Roboto/Roboto-Medium-12.ttf);
 }
 .alaune{
-    font: 400 70px LouvreSerif,Georgia, 'Times New Roman', serif;
+    font: 200 70px LouvreSerif,Georgia, 'Times New Roman', serif;
     text-transform: uppercase;
 }
-.ex{
-    font-size: 20px;
-    font-family: Roboto,Open-Sans,Arial, Helvetica, sans-serif;
-    font-weight:700;
-    color: aliceblue;
-    padding-top: 400px;
-    padding-left: 50px;
+.wom{
+    color: rgb(255, 255, 255);
+    height: 185px;
+    width: 1000px;
+    padding-left: 60px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+
+}
+.wome{
+    font: 400 20px Roboto,Open-Sans,Arial,Helvetica,sans-serif;
+    height: 50px;
+    margin: 0px;
+}
+.womn{
+    font: 400 38px/1.26 LouvreSerif,Georgia,'Times New Roman',serif;
+    height: 70px;
+    margin: 0px;
+}
+.woml{
+    height: 35px;
+    font: 400 16px/1.56 Roboto,Open-Sans,Arial,Helvetica,sans-serif;
+    margin: 0px;
 }

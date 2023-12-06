@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .h{
     margin-left: 200px;
     margin-bottom: 15px;
@@ -11,12 +14,14 @@
     background-repeat: no-repeat;
 }
 .back2{
-    background: url(../imags/2.png) no-repeat;
     background-size: 100% 100%;
-}
+    background-image: linear-gradient(5deg,#000000aa 20%,transparent),url(../imags/2.png);
+    background-repeat: no-repeat;
+}  
 .nav{
     margin: 50px auto;
     height: 700px;
+    padding: 1px;
 }
 .nav ul{
     list-style: none;
@@ -24,6 +29,8 @@
     white-space: nowrap;
     overflow-x: scroll;
     overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+
 }
 .nav li{
     width: 1400px;
@@ -31,4 +38,9 @@
     white-space: nowrap;
     line-height: 600px;
     display: inline-block;
+    position: relative;
+
+}
+.djt{
+    float: right;
 }
