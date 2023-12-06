@@ -1,0 +1,34 @@
+.h{
+    margin-left: 200px;
+    margin-bottom: 15px;
+}
+.one{
+    height: 650px;
+}
+.back1{
+    background-size: 100% 100%;
+    background-image: linear-gradient(5deg,#000000aa 20%,transparent),url(../imags/1.png);
+    background-repeat: no-repeat;
+}
+.back2{
+    background: url(../imags/2.png) no-repeat;
+    background-size: 100% 100%;
+}
+.nav{
+    margin: 50px auto;
+    height: 700px;
+}
+.nav ul{
+    list-style: none;
+    margin-left: 50px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.nav li{
+    width: 1400px;
+    height: 600px;
+    white-space: nowrap;
+    line-height: 600px;
+    display: inline-block;
+}
