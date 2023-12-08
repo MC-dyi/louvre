@@ -30,10 +30,20 @@
     position: relative;
 
 }
-.djt{
-    width: 24px;
-    height: 24px;
+.CardsSlideshow_ALaUne_icon {
+    display: block;
+    align-self: flex-end;
+    font-size: 1.7142857143em;
+    margin-left: 48px;
+    transition: transform .3s;
+    will-change: transform;
+}
+.SvgRWrapper {
+    height: 1em;
+    width: 1em;
     pointer-events: none;
     fill: currentColor;
     float: right;
+    margin-right: 50px;
+    position: relative;
 }
