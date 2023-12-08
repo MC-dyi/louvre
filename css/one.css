@@ -32,13 +32,13 @@
     align-self: flex-end;
     font-size: 1.7142857143em;
     margin-left: 48px;
+    float: right;
+    margin-right: 90px;
+    position: relative;
 }
 .SvgRWrapper {
     height: 1em;
     width: 1em;
     pointer-events: none;
     fill: currentColor;
-    float: right;
-    margin-right: 90px;
-    position: relative;
 }
