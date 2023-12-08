@@ -1,0 +1,28 @@
+.back4{
+    background-size: 100% 100%;
+    background-image: linear-gradient(5deg,#000000aa 20%,transparent),url(../imags/guo.png);
+    background-repeat: no-repeat;
+}  
+.guo{
+    height: 230px;
+    width: 1400px;
+    padding-left: 60px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.guot{
+    font: 400 20px Roboto,Open-Sans,Arial,Helvetica,sans-serif;
+    height: 50px;
+}
+.guole{
+    font: 400 38px/1.26 LouvreSerif,Georgia,'Times New Roman',serif;
+    height: 115px;
+}
+.guolem{
+    height: 35px;
+    font: 400 16px/1.56 Roboto,Open-Sans,Arial,Helvetica,sans-serif;
+}
+.guole.guolem.guot{
+    margin: 0px;
+}
