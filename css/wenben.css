@@ -1,0 +1,24 @@
+.bq{
+    font:18px/1.33 Montserrat,Verdana,sans-serif;
+    letter-spacing: 1.6px;
+}
+.wb{
+    font:400 40px/1.26 EB Garamond,Georgia,Times New Roman,serif;
+    text-rendering: optimizeLegibility;
+    line-height: 1.67;
+    color: #909090;
+}
+.art{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.wb a{
+    color: black;
+    text-decoration: underline 2px;
+    text-underline-offset: 3px;
+    text-decoration-color: initial;
+    transition: text-decoration-color .15s,-webkit-text-decoration-color .15s;
+}
+.wb a:hover{
+    text-decoration: none;
+}
