@@ -16,7 +16,10 @@
 .back6{
     background-image: linear-gradient(5deg,#000000aa 20%,transparent),url(../imags/ta.png);
 }
-.back1,.back2,.back3,.back4,.back5,.back6{
+.back7{
+    background-image: linear-gradient(5deg,#000000aa 20%,transparent),url(../imags/chd.png);
+}
+.back1,.back2,.back3,.back4,.back5,.back6,.back7{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }

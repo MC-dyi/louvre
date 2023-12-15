@@ -1,6 +1,18 @@
 @font-face {
     font-family: Roboto;
-    src: url(../font/Roboto/Roboto-Medium-12.ttf);
+    src: url(../font/Roboto.ttf);
+}
+@font-face {
+    font-family: LouvreSerif;
+    src: url(../font/Louvre\ Serif\ Regular.ttf);
+}
+@font-face {
+    font-family:Montserrat ;
+    src: url(../font/Montserrat\ SemiBold.ttf);
+}
+@font-face {
+    font-family: 'EB Garamond';
+    src: url(../font/EB\ Garamond\ Regular.ttf);
 }
 .alaune{
     font: 200 70px LouvreSerif,Georgia, 'Times New Roman', serif;
