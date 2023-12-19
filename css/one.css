@@ -14,7 +14,6 @@
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
     height: 650px;
-
 }
 .nav li{
     width: 1360px;
@@ -25,7 +24,6 @@
     position: relative;
     color: rgb(255, 255, 255);
     margin-right: 20px;
-
 }
 .CardsSlideshow_ALaUne_icon {
     display: block;
@@ -45,4 +43,8 @@
 
 /*ul::-webkit-scrollbar {
     display: none;
+}*/
+.ba{
+    background-color: white;
+    height: 1550px;
 }

@@ -15,8 +15,10 @@
     src: url(../font/EB\ Garamond\ Regular.ttf);
 }
 .alaune{
-    font: 200 70px LouvreSerif,Georgia, 'Times New Roman', serif;
+    font: 400 58px/1.24 LouvreSerif,Georgia, 'Times New Roman', serif;
     text-transform: uppercase;
+    color: black;
+    padding-top: 100px;
 }
 .h{
     margin-left: 200px;
