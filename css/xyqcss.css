@@ -1,7 +1,7 @@
 .HSL{
     margin-top: 48px;
     padding-left: 0px;
-    width: 100%;
+    width: 1644px;
 }
 .flux{
     width: 1644px;
@@ -18,7 +18,8 @@
     overflow-x: scroll;
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
-    height: 650px;
+    height: 500px;
+    padding-top: 25px;
 }
 .CSs li{
     width: 382px;
@@ -30,38 +31,6 @@
     color: rgb(255, 255, 255);
     margin-right: 20px;
 }
-.yqba1{
-    background-image: linear-gradient(1deg,#000000aa 20%,transparent),url(../imags/yq1.png);
-}
-.yqba1{
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.wordC{
-    height: 110px;
-    width: 100%;
-    padding-left: 30px;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-}
-.yqword1{
-    font: 400 18px/1.33 Montserrat,Verdana,sans-serif;
-    height: 20px;
-    letter-spacing: 1.6px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}.yqword2{
-    height: 103px;
-    font: 400 14px/1.57 Roboto,Open-Sans,Arial,Helvetica,sans-serif;
-}
-.juedui{
-    position: absolute;
-    width: 82.75px;
-    height: 29.58px;
-    top: 0px;
-    left: 0px;
-}
 .TK:hover{
-    transform:scale(1.05);
+    transform:translate(-5%, -5%) scale(1.1);
 }

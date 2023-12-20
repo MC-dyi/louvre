@@ -1,3 +1,12 @@
+.back{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 1644px;
+    background-image: url(../imags/background.png);
+    z-index: -1;
+}
 .back1{
     background-image: linear-gradient(5deg,#000000aa 20%,transparent),url(../imags/wom.png);
 }
@@ -19,7 +28,28 @@
 .back7{
     background-image: linear-gradient(5deg,#000000aa 20%,transparent),url(../imags/chd.png);
 }
-.back1,.back2,.back3,.back4,.back5,.back6,.back7{
+.yqba1{
+    background-image: linear-gradient(1deg,#000000aa 20%,transparent),url(../imags/yq1.png);
+}
+.yqba2{
+    background-image: linear-gradient(1deg,#000000aa 20%,transparent),url(../imags/yq2.png);
+}
+.yqba3{
+    background-image: linear-gradient(1deg,#000000aa 20%,transparent),url(../imags/yq3.png);
+}
+.yqba4{
+    background-image: linear-gradient(1deg,#000000aa 20%,transparent),url(../imags/yq4.png);
+}
+.yqba5{
+    background-image: linear-gradient(1deg,#000000aa 20%,transparent),url(../imags/yq5.png);
+}
+.yqba6{
+    background-image: linear-gradient(1deg,#000000aa 20%,transparent),url(../imags/yq6.png);
+}
+.yqba7{
+    background-image: linear-gradient(1deg,#000000aa 20%,transparent),url(../imags/yq7.png);
+}
+.back,.back1,.back2,.back3,.back4,.back5,.back6,.back7,.yqba1,.yqba2,.yqba3,.yqba4,.yqba5,.yqba6,.yqba7{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }

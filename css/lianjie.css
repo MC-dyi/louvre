@@ -1,0 +1,56 @@
+a,b{
+    text-decoration: indianred;
+}
+.BL_ch a:hover{
+    background-color: #c6c6c628;
+    text-decoration: underline;
+}
+b:hover{
+    background-color: #ca4f7a;
+    color: #ca4f7a;
+    text-decoration: underline #000;
+}
+button{
+    transition-duration: 0.2S;
+}
+button:hover{
+    background-color: #000000b9;
+}
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+a.Header_Home_link:before{
+    --ratio:5.230769230769231;
+}
+button {
+    border: 0;
+    margin:0;
+    padding:0;
+    width: auto;
+    overflow: visible;
+    background: #0000;
+    color: inherit;
+    font: inherit;
+    text-align: inherit;
+    text-transform: inherit;
+    line-height: inherit;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    appearance: none;
+}
+a {
+    text-decoration: inherit;
+    color:inherit;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+}

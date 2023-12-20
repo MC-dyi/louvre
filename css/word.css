@@ -1,13 +1,10 @@
 .wordA{
     height: 185px;
-    width: 1400px;
-    padding-left: 60px;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
 }
 .wordB{
     height: 230px;
+}
+.wordA,.wordB{
     width: 1400px;
     padding-left: 60px;
     position: absolute;
@@ -35,4 +32,64 @@
 }
 .word1,.word2,.word3,.word4{
     margin: 0px;
+}
+.wordC{
+    padding-top: 309.27px;
+}
+.wordD{
+    padding-top: 329.27px;
+}
+.wordE{
+    padding-top: 289.27px;
+}
+.wordC,.wordD,.wordE{
+    height: 419.27px;
+    width: 100%;
+    padding-left: 30px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.yqword1{
+    font: 400 18px/1.33 Montserrat,Verdana,sans-serif;
+    height: 20px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.yqword2{
+    height: 103px;
+    font: 400 14px/1.57 Roboto,Open-Sans,Arial,Helvetica,sans-serif;
+}
+.yqword3{
+    font: 400 18px/1.33 Montserrat,Verdana,sans-serif;
+    height: 40px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.whi1{
+    width: 82.75px;
+}
+.whi2{
+    width: 94px;
+}
+.whi3{
+    width: 60px;
+}
+.whi4{
+    width: 76px;
+}
+.whi5{
+    width: 123px;
+}
+.whi1,.whi2,.whi3,.whi4,.whi5{
+    font-weight: 500;
+    color: black;
+    background-color: white;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    height: 29.58px;
+    padding: 4px 10px;
 }

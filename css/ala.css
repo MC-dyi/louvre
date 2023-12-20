@@ -14,6 +14,10 @@
     font-family: 'EB Garamond';
     src: url(../font/EB\ Garamond\ Regular.ttf);
 }
+@font-face {
+    font-family: 'Roboto Medium' ;
+    src: url(../font/Roboto\ Medium.ttf);
+}
 .alaune{
     font: 400 58px/1.24 LouvreSerif,Georgia, 'Times New Roman', serif;
     text-transform: uppercase;
