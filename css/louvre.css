@@ -43,6 +43,7 @@ header {
     contain: size;
     position: relative;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .Header_top:after {
@@ -171,7 +172,6 @@ ul {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 40px;
 }
 
 .popover_item:not(:last-child) {
@@ -240,9 +240,10 @@ h1 {
     height: calc(1.71em + 4px);
     width: auto;
     display: block;
-    font-size: 50px;
+    font-size: 55px;
     font: 400 38px/1.26 LouvreSerif,Georgia,'Times New Roman',serif;
-    letter-spacing: 6px;
+    letter-spacing: 6.5px;
+    margin-top: 60px;
 }
 
 .sr-only {
@@ -564,6 +565,7 @@ main {
     color: #fff;
     z-index: 0;
     contain: layout paint;
+    height: 595px;
 }
 
 .HomeCover_lock:before {
@@ -623,7 +625,7 @@ video {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 48px 0;
+    padding: 55px 0px 30px 40px;
     z-index: 2;
 }
 
@@ -989,4 +991,39 @@ img{
     height: .5em;
     width: .5em;
     transform: translate(-50%,-50%);
+}
+
+.droplist{
+    background: #fff;
+    color:#000;
+    position: absolute;
+    z-index: 1;
+    padding-left: 15px;
+    margin-top: 35px;
+    width: 133px;
+    height: 230px;
+    border-radius: 3%;
+    display: none;
+}
+
+.droplist li{
+    margin-top: 18px;
+}
+
+.popover:hover .droplist{
+    display: block;
+}
+
+.langues{
+    font-size:x-small;
+}
+
+.leftli{
+    padding-left: 10px;
+    margin-top: 0px;
+}
+
+.leftli:hover{
+    text-decoration: underline;
+    background-color: #f6f6f6;
 }

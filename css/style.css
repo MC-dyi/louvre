@@ -14,7 +14,6 @@
     contain: layout paint;
     background-image:url(../imags/44.png);
     background-size: cover;
-    height:271.73px;
 }
 
 .grid, .layout {
@@ -28,7 +27,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 80px 0;
+    padding: 80px 60px;
 }
 
 .Footer_Newsletter_title {
@@ -393,7 +392,8 @@ ul {
     display: flex;
     flex-wrap: wrap;
     margin-right: -24px;
-    margin-bottom: -16px
+    margin-bottom: -16px;
+    margin-left: 0px;
 }
 
 .SocialLinks_link {
@@ -695,7 +695,8 @@ ul {
 
 .Footer_footer {
     contain: layout paint;
-    padding-top: 80px
+    padding-top: 80px;
+    padding-left: 100px;
 }
 
 @media (min-width:820px) {

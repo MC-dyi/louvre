@@ -20,13 +20,14 @@ body {
     color: #fff;
     font: 400 58px/1.24 LouvreSerif,Georgia,Times New Roman,serif;
     margin: 20px 20px 20px 200px;
-    padding-right: 680px;
+    padding-right: 380px;
 }
 
 .pic {
+    height: 1685px;
     position: relative;
     padding-top: 5vw;
-    padding-left: 40px;
+    padding-left: 80px;
     padding-right: 0px;
     border: 1px;
 }
@@ -72,7 +73,7 @@ body {
     text-align: center;
     position: relative;
     top: 210px;
-    font: 400 16px/1.56 'Roboto Medium',Open Sans,Arial,Helvetica,sans-serif
+    font: 400 16px/1.56 Roboto,Open Sans,Arial,Helvetica,sans-serif
 }
 .anniu:link{
     color: #000;
@@ -92,7 +93,7 @@ body {
     text-align: center;
     background-image: linear-gradient(rgba(255,255,255,0),rgb(0,0,0));
     position:absolute ;
-    top: 1400px;
+    top: 1220px;
     left: 0px;
     z-index: 50;
 }
@@ -133,8 +134,8 @@ body {
 .vousimg {
     margin: 0;
     margin-top: 5vw;
-    width:670px;
-    height: 500px;
+    width:456px;
+    height: 288px;
     overflow: hidden;
     position: absolute;
     margin-right: 0px;
@@ -142,8 +143,8 @@ body {
     left: 70px;
 }
 .vousimg img{
-    width: 800px;
-    height: 420px;
+    width: 456px;
+    height: 288px;
 }
 .vous-ul{
     margin-top:0;

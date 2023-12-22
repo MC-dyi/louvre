@@ -88,8 +88,11 @@
     color: black;
     background-color: white;
     position: absolute;
-    top: 16px;
+    top: 75px;
     left: 16px;
     height: 29.58px;
     padding: 4px 10px;
+}
+.fr{
+    font-weight: bold;
 }
