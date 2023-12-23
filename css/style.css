@@ -584,7 +584,8 @@ ul {
 @media (min-width:1024px) {
     .Footer_Member {
         padding-top: 48px;
-        width: 100%
+        width: 100%;
+        margin-bottom: 30px;
     }
 }
 

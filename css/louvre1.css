@@ -272,8 +272,7 @@ font-size: 1.2em
 }
 
 .leftnav{
-    position: relative;
-    left: -40px;
+    float: right;
 }
 
 .rightli{
@@ -342,7 +341,7 @@ font-size: 1.2em
     top: -10px;
 }
 
-@media(min-width: 1577px) {
+@media(min-width: 820px) {
     .MenuDrawer_SecondDrawer_component {
         padding-top:0
     }
@@ -416,6 +415,7 @@ font-size: 1.2em
     background-color: #222;
     overflow: hidden;
     height: 64px;
+    width: 261px;
 }
 
 .MenuDrawer_MenuCardListItem_img{

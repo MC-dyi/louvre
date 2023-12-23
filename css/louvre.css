@@ -625,7 +625,7 @@ video {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 55px 0px 30px 40px;
+    padding: 55px 50px 30px 40px;
     z-index: 2;
 }
 
@@ -876,7 +876,7 @@ svg:not(:root) {
 .HomeCover_Video_button {
     position: relative;
     padding: 32px;
-    margin: -32px -32px -32px 0;
+    margin: -32px -80px 20px 0;
     cursor: pointer;
 }
 

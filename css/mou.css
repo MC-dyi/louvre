@@ -210,7 +210,7 @@ li{
 .white{
     background-color: #fff;
     color: #000;
-    height: 1000px;
+    height: 800px;
     padding-top: 128px;
 }
 
@@ -297,9 +297,11 @@ img{
 }
 
 .CSs_c{
-    margin-top: 24px;
+    margin-top: 0px;
     display: flex;
     justify-content: center;
+    position: relative;
+    bottom: 50px;
 }
 
 .CB{

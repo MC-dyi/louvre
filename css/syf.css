@@ -10,8 +10,9 @@ body {
 .PLONGEZ-AU-CŒUR-DU-LOUVRE{
     background-color: #000;
     padding: 20px;
+    padding-top: 100px; ;
     margin-bottom: 0px;
-    height: 96vw;
+    height: 1490px;
     overflow: hidden;
     margin: 0px;
 }
@@ -99,7 +100,7 @@ body {
 }
 
 .VOUS-SOUHAITEZ{
-    height: 800px;
+    height: 600px;
     margin-top: 0vw;
     background-color: #fff;
     padding: 100px 50px;
@@ -139,7 +140,7 @@ body {
     overflow: hidden;
     position: absolute;
     margin-right: 0px;
-    top: 80px;
+    top: 120px;
     left: 70px;
 }
 .vousimg img{
@@ -154,18 +155,17 @@ body {
 }
 
 .vous-ul ul{
-    margin-top:0;
+    margin-top: 20px;;
     margin-left: 0;
     position: relative;
     top: -1vw;
     float: right;
-    width: 60vw;
+    width: 1100px;
     right: -10vw;
     top: 1vw;
 }
 .vous-ul ul li {
-    width: 25vw;
-    height: 9vw;
+    width: 480px;
     display: inline-block;
     font-size: 16px;
     margin-right: 1vw;

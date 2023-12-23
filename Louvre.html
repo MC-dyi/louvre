@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site officiel du musée du Louvre</title>
+    <link rel="icon" href="imags/favicon-16x16.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/ala.css">
+    <link rel="stylesheet" type="text/css" href="css/one.css">
+    <link rel="stylesheet" type="text/css" href="css/back.css">
+    <link rel="stylesheet" type="text/css" href="css/word.css">
+    <link rel="stylesheet" type="text/css" href="css/dot.css">
+    <link rel="stylesheet" type="text/css" href="css/wenben.css">
+    <link rel="stylesheet" type="text/css" href="css/xyqcss.css">
+    <link rel="stylesheet" type="text/css" href="css/mou.css">
+    <link rel="stylesheet" type="text/css" href="css/louvre.css">
+    <link rel="stylesheet" type="text/css" href="css/louvre1.css">
+    <link rel="stylesheet" type="text/css" href="css/lianjie.css">
+    <link rel="stylesheet" type="text/css" href="css/syf.css">
+    <link rel="stylesheet" type="text/css" href="css/syf1.css">
+    <script src="js/1.js"></script>
+    <script src="js/louvre.js"></script>
+</head>
+<body>
+    <header class="Header">
+        <div class="Header_top">
+            <nav role="navigation" aria-label="Tout le Louvre">
+                <button onclick="syt1()" type="button" class="menu" id="nav-toggle">
+                    <svg viewBox="0 0 32 32" width="1em" height="1em" focusable="fales" aria-hidden="true" class="menu_icon Svg">
+                        <path d="M20.5 9a5.5 5.5 0 0 1 4.4 8.8l4.63 4.67-1.06 1.06-4.63-4.66A5.5 5.5 0 1 1 20.5 9zM16 21v1.5H2V21h14zm4.5-10.5a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm-7.94 5V17H2v-1.5h10.56zM14.2 10v1.5H2V10h12.19z"></path>
+                    </svg>
+                    <span class="menu_text">Menu</sapn>
+                </button>
+                <div role="dialog" aria-modal="true" aria-label="Menu" class="Menu_MenuDrawer_dialog Menu_MenuDrawer_open Menu_MenuDrawer_isvisible Menu_MenuDrawer_subclosed">
+                    <div class="Menu_MenuDrawer_mask">
+                    </div>
+                    <div role="document" class="Menu_MenuDrawer" id="nav-menu" style="--scroll-top:0px;--header-top:0px;--padding-top:167px;">
+                        <div class="Menu_MenuDrawer_scrollwrapper">
+                            <div class="MenuDrawer_MenuHeader_header Menu_MenuDrawer_header">
+                                <div class="MenuDrawer_MenuHeader_top">
+                                    <button type="button" class="MenuDrawer_MenuHeader_close roboto-p-16" onclick="syt1()" aria-label="Fermer le menu">
+                                        <svg viewBox="0 0 32 32" width="1em" height="1em" focusable="fales" aria-hidden="true" class="Svg">
+                                            <path d="M23.07 10.34 17.41 16l5.66 5.66-1.41 1.41L16 17.41l-5.66 5.66-1.41-1.41L14.59 16l-5.66-5.66 1.41-1.41L16 14.59l5.66-5.66 1.41 1.41z">
+                                            </path>                    
+                                        </svg>
+                                        <span>Fermer</span>
+                                    </button>
+                                </div>
+                                <form class="Search_SearchField MenuDrawer_MenuHeader_searchField" role="search" method="get" action="/resultats-de-recherche">
+                                    <svg viewBox="0 0 20 20" width="1em" height="1em" focusable="fales" aria-hidden="true"class="Search_SearchField_icon SvgRWrapper">
+                                        <path d="M8 2a6 6 0 0 1 4.66 9.78l5.28 5.28-.88.88-5.28-5.28A5.98 5.98 0 0 1 2 8a6 6 0 0 1 6-6zm0 1.25a4.75 4.75 0 1 0 0 9.5 4.75 4.75 0 0 0 0-9.5z">
+                                        </path>
+                                    </svg>
+                                    <label class="Search_SearchField_label roboto-p-12 MenuDrawer_MenuHeader_label" for="search-input-menu">
+                                        <span>Rechercher</span>
+                                    </label>
+                                    <input class="Search_SearchField_input MenuDrawer_MenuHeader_input" type="search" id="search-input-menu" name="keywords" required>
+                                    <button class="Search_SearchField_button MenuDrawer_MenuHeader_button" type="submit" aria-disabled="true">
+                                        <svg viewBox="0 0 16 16" width="1em" height="1em" focusable="fales" aria-hidden="true" class="Svg">
+                                            <path d="m9.3 3.7 3.8 3.8H1v1h12.1l-3.8 3.8.7.7 5-5-5-5z"></path>
+                                        </svg>
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="Menu_MenuDrawer_content">
+                                <ul class="MenuDrawer_MenuMainList_list">
+                                    <li>
+                                        <button class="MenuDrawer_MenuMainListItem_toggle montserrat-20" type="button" aria-expanded="false">
+                                            <span class="MenuDrawer_MenuMainListItem_buttonText">Visiter</span>
+                                            <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="fales" aria-hidden="true" class="Svg rightli">
+                                                <path d="m16.77 12.28-7.5 7.5-1.05-1.06 6.45-6.45-6.45-6.45 1.05-1.05z"></path>
+                                            </svg>
+                                        </button>
+                                        <div class="Menu_MenuDrawer_leveltwo MenuDrawer_SecondDrawer_clip MenuDrawer_SecondDrawer_open">
+                                            <div class="MenuDrawer_SecondDrawer">
+                                                <div class="MenuDrawer_SecondDrawer_content">
+                                                    <ul class="MenuDrawer_SecondDrawer_list roboto-p-16">
+                                                        <li class="MenuDrawer_SecondDrawer_component">
+                                                            <a rel="noopener" target="_blank" href="#" class="Bouton Bouton_size-big Bouton_width-fixed Bouton_fill-full Bouton_dark Bouton_colored" style="--color: #008573; --color-hover: #0a4f51;">
+                                                                <span class="Bouton_content">
+                                                                    <span class="Bouton_icon Bouton_left">
+                                                                        <svg viewBox="0 0 16 16" width="1em" height="1em" focusable="fales" aria-hidden="true" class="Svg">
+                                                                            <path d="M9.13.5a.9.9 0 0 1 1.28 0l1.17 1.18c.2.2.3.5.25.79a1.48 1.48 0 0 0 1.7 1.7c.3-.04.59.05.79.25l1.17 1.17a.9.9 0 0 1 0 1.28L6.87 15.5a.9.9 0 0 1-1.28 0L.51 10.41a.9.9 0 0 1 0-1.28zm.64.78L1.28 9.77l4.95 4.95 8.49-8.49-1.1-1.1c-.74.15-1.52-.1-2.08-.67s-.82-1.34-.7-2.14L9.77 1.28zm.53 5.13c.1-.1.25-.1.35 0l.35.35c.1.1.1.26 0 .36l-4.59 4.6a.27.27 0 0 1-.36 0l-.35-.36a.25.25 0 0 1 0-.36l4.6-4.59zm-2.24-.59c.1-.1.26-.1.35 0l.36.35c.1.1.1.26 0 .36L5 10.3c-.1.1-.26.1-.36 0l-.35-.35a.25.25 0 0 1 0-.36l3.77-3.77z"></path>
+                                                                        </svg>                             
+                                                                    </span>
+                                                                </span>
+                                                                <span class="Bouton_nobreak">&nbsp;</span>
+                                                                <span class="Bouton_label">Acheter un billet</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="MenuDrawer_SecondDrawer_listitem">
+                                                            <a class="MenuDrawer_SecondDrawer_link" href="#">Horaires & tarifs</a>
+                                                        </li>
+                                                        <li class="MenuDrawer_SecondDrawer_listitem">
+                                                            <a class="MenuDrawer_SecondDrawer_link" href="#">Plan, accès & transports</a>
+                                                        </li>
+                                                        <li class="MenuDrawer_SecondDrawer_listitem">
+                                                            <a class="MenuDrawer_SecondDrawer_link" href="#">Jours d’accès aux collections</a>
+                                                        </li>
+                                                        <li class="MenuDrawer_SecondDrawer_listitem">
+                                                            <a class="MenuDrawer_SecondDrawer_link" href="#">Services sur place</a>
+                                                        </li>
+                                                        <li class="MenuDrawer_SecondDrawer_listitem">
+                                                            <a class="MenuDrawer_SecondDrawer_link" href="#">Restaurants & cafés</a>
+                                                        </li>
+                                                        <li class="MenuDrawer_SecondDrawer_listitem">
+                                                            <a class="MenuDrawer_SecondDrawer_link" href="#">Venir en famille</a>
+                                                        </li>
+                                                        <li class="MenuDrawer_SecondDrawer_listitem">
+                                                            <a class="MenuDrawer_SecondDrawer_link" href="#">Venir en groupe</a>
+                                                        </li>
+                                                        <li class="MenuDrawer_SecondDrawer_listitem">
+                                                            <a class="MenuDrawer_SecondDrawer_link" href="#">Accessibilité</a>
+                                                        </li>
+                                                        <li class="MenuDrawer_SecondDrawer_listitem">
+                                                            <a class="MenuDrawer_SecondDrawer_link" href="#">F.A.Q.</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="MenuDrawer_MenuMainListItem_toggle montserrat-20" type="button" aria-expanded="false">
+                                            <span class="MenuDrawer_MenuMainListItem_buttonText">Découvrir</span>
+                                            <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="fales" aria-hidden="true" class="Svg rightli">
+                                                <path d="m16.77 12.28-7.5 7.5-1.05-1.06 6.45-6.45-6.45-6.45 1.05-1.05z"></path>
+                                            </svg>
+                                        </button>
+                                        <div class="Menu_MenuDrawer_leveltwo MenuDrawer_SecondDrawer_clip MenuDrawer_SecondDrawer_open">
+                                            <div class="MenuDrawer_SecondDrawer">
+                                                <div class="MenuDrawer_SecondDrawer_content">
+                                                    <ul class="MenuDrawer_SecondDrawer_list roboto-p-16">
+                                                        <li class="MenuDrawer_SecondDrawer_listitem">
+                                                            <a class="MenuDrawer_SecondDrawer_link" href="#">Le palais</a>
+                                                        </li>
+                                                        <li class="MenuDrawer_SecondDrawer_listitem">
+                                                            <a class="MenuDrawer_SecondDrawer_link" href="#">Les jardins</a>
+                                                        </li>
+                                                        <li class="MenuDrawer_SecondDrawer_listitem">
+                                                            <a class="MenuDrawer_SecondDrawer_link" href="#">Les parcours</a>
+                                                        </li>
+                                                        <li class="MenuDrawer_SecondDrawer_listitem">
+                                                            <a class="MenuDrawer_SecondDrawer_link" href="#">Louvre+</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="bottomnav">
+                                        <button class="MenuDrawer_MenuMainListItem_toggle montserrat-20" type="button" aria-expanded="false">
+                                            <span class="MenuDrawer_MenuMainListItem_buttonText">En ce moment</span>
+                                            <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="fales" aria-hidden="true" class="Svg rightli">
+                                                <path d="m16.77 12.28-7.5 7.5-1.05-1.06 6.45-6.45-6.45-6.45 1.05-1.05z"></path>
+                                            </svg>
+                                        </button>
+                                        <div class="Menu_MenuDrawer_leveltwo MenuDrawer_SecondDrawer_clip MenuDrawer_SecondDrawer_open">
+                                            <div class="MenuDrawer_SecondDrawer">
+                                                <div class="MenuDrawer_SecondDrawer_content">
+                                                    <ul class="MenuDrawer_SecondDrawer_list roboto-p-16">
+                                                        <li class="MenuDrawer_SecondDrawer_listitem">
+                                                            <a class="MenuDrawer_SecondDrawer_link" href="#">Expositions</a>
+                                                        </li>
+                                                        <li class="MenuDrawer_SecondDrawer_listitem">
+                                                            <a class="MenuDrawer_SecondDrawer_link" href="#">Événements & activités</a>
+                                                        </li>
+                                                        <li class="MenuDrawer_SecondDrawer_listitem">
+                                                            <a class="MenuDrawer_SecondDrawer_link" href="#">Visites guidées</a>
+                                                        </li>
+                                                        <li class="MenuDrawer_SecondDrawer_listitem">
+                                                            <a class="MenuDrawer_SecondDrawer_link" href="#">Vie du musée</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="MenuDrawer_MenuCardList_list">
+                                    <div class="MenuDrawer_MenuCardList_cardsMinor">
+                                        <li>
+                                            <a title="Soutenir le Louvre" class="MenuDrawer_MenuCardListItem roboto-p-14-medium" href="#">
+                                                <picture>
+                                                    <img src="imags/arc-du-carrousel.jpg" alt loading="lazy" decoding="async" width="1500" height="1001" class="Image MenuDrawer_MenuCardListItem_img" style="--preview:#5f737a;">
+                                                </picture>
+                                                <span class="MenuDrawer_MenuCardListItem_title">Soutenir le Louvre</span>
+                                                <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="fales" aria-hidden="true" class="MenuDrawer_MenuCardListItem_svg Svg">
+                                                    <path d="m16.77 12.28-7.5 7.5-1.05-1.06 6.45-6.45-6.45-6.45 1.05-1.05z"></path>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="leftimage">
+                                            <a title="Se former et transmettre" class="MenuDrawer_MenuCardListItem roboto-p-14-medium" href="#">
+                                                <picture>
+                                                    <img src="imags/formation-au-studio.jpg" alt loading="lazy" decoding="async" width="6016" height="41016" class="Image MenuDrawer_MenuCardListItem_img" style="--preview:#896e65;">
+                                                </picture>
+                                                <span class="MenuDrawer_MenuCardListItem_title">Se former et transmettre</span>
+                                                <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="fales" aria-hidden="true" class="MenuDrawer_MenuCardListItem_svg Svg">
+                                                    <path d="m16.77 12.28-7.5 7.5-1.05-1.06 6.45-6.45-6.45-6.45 1.05-1.05z"></path>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a title="Recherche & conservation" class="MenuDrawer_MenuCardListItem roboto-p-14-medium" href="#">
+                                                <picture>
+                                                    <img src="imags/victor-chavet-le-louvre-de-napoleon-iii-1857-detail_0.jpg" alt loading="lazy" decoding="async" width="1500" height="1001" class="Image MenuDrawer_MenuCardListItem_img" style="--preview:#5f737a;">
+                                                </picture>
+                                                <span class="MenuDrawer_MenuCardListItem_title">Recherche & conservation</span>
+                                                <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="fales" aria-hidden="true" class="MenuDrawer_MenuCardListItem_svg Svg">
+                                                    <path d="m16.77 12.28-7.5 7.5-1.05-1.06 6.45-6.45-6.45-6.45 1.05-1.05z"></path>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="leftimage">
+                                            <a title="E-boutique" class="MenuDrawer_MenuCardListItem roboto-p-14-medium" href="#">
+                                                <picture>
+                                                    <img src="imags/palais-du-louvre-cour-napoleon.jpg" alt loading="lazy" decoding="async" width="1500" height="1001" class="Image MenuDrawer_MenuCardListItem_img" style="--preview:#5f737a;">
+                                                </picture>
+                                                <span class="MenuDrawer_MenuCardListItem_title">E-boutique</span>
+                                                <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="fales" aria-hidden="true" class="MenuDrawer_MenuCardListItem_svg Svg">
+                                                    <path d="m16.77 12.28-7.5 7.5-1.05-1.06 6.45-6.45-6.45-6.45 1.05-1.05z"></path>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </div>
+                                    <li>
+                                        <a class="MenuDrawer_MenuCardListBigItem roboto-p-16" href="#">
+                                            <picture>
+                                                <img src="imags/Fresque-Louvre+-bisV2.jpg" alt loading="lazy" decoding="async" width="2100" height="1181" class="Image MenuDrawer_MenuCardListBigItem_image cover" style="--preview:#736757">
+                                            </picture>
+                                            <span class="MenuDrawer_MenuCardListBigItem_title">
+                                                Louvre+
+                                                <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="fales" aria-hidden="true" class="MenuDrawer_MenuCardListBigItem_svg Svg">
+                                                    <path d="m16.77 12.28-7.5 7.5-1.05-1.06 6.45-6.45-6.45-6.45 1.05-1.05z"></path>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="MenuDrawer_MenuFooter">
+                                    <ul class="SocialLinks_socials MenuDrawer_MenuFooter_socials">
+                                        <li>
+                                            <a rel="noopener" target="_blank" href="#" title="Le Louvre sur Facebook" class="SocialLinks_link">
+                                                <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="fales" aria-hidden="true" class="Svg">
+                                                    <path d="m9.78 22-.03-8.75H6V9.5h3.75V7c0-3.37 2.09-5 5.1-5 1.44 0 2.68.1 3.04.15v3.53H15.8c-1.63 0-1.95.78-1.95 1.92v1.9h4.65l-1.25 3.75h-3.4V22H9.78z"></path>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a rel="noopener" target="_blank" href="#" title="Le Louvre sur Instagram" class="SocialLinks_link">
+                                                <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="fales" aria-hidden="true" class="Svg">
+                                                    <path d="M13.02 2c1.8 0 2.18.02 3.1.06 1.06.05 1.79.22 2.42.47.66.25 1.22.6 1.77 1.15.56.55.9 1.11 1.16 1.77.25.63.41 1.36.46 2.43.05.95.06 1.32.06 3.32v1.6c0 2-.01 2.37-.06 3.32a7.33 7.33 0 0 1-.46 2.42c-.26.66-.6 1.22-1.15 1.77-.56.56-1.12.9-1.78 1.16-.63.25-1.36.41-2.42.46-.95.05-1.33.06-3.33.06H11.2c-2 0-2.37-.01-3.33-.06a7.34 7.34 0 0 1-2.42-.46 4.91 4.91 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.16-1.78 7.35 7.35 0 0 1-.46-2.42 55.2 55.2 0 0 1-.06-3.1v-2.05c0-1.8.02-2.18.06-3.1.05-1.06.22-1.79.46-2.42.26-.66.6-1.22 1.16-1.77a4.7 4.7 0 0 1 1.77-1.15 7.35 7.35 0 0 1 2.42-.47c.92-.04 1.3-.06 3.1-.06zm.02 1.8h-2.09c-1.73 0-2.1.02-3 .06-.97.04-1.5.2-1.85.34-.47.18-.8.4-1.15.75-.35.35-.57.68-.75 1.15-.13.35-.3.88-.34 1.86-.04.9-.06 1.26-.06 3v2.08c0 1.74.02 2.1.06 3 .04.97.2 1.5.34 1.85.18.47.4.8.75 1.15.35.35.68.57 1.15.75.35.14.88.3 1.86.34.97.05 1.32.06 3.48.06h1.11c2.17 0 2.51-.01 3.49-.06.97-.04 1.5-.2 1.85-.34.47-.18.8-.4 1.15-.75.35-.35.57-.68.75-1.15.14-.35.3-.88.34-1.85.05-.98.06-1.32.06-3.49v-1.1c0-2.17-.01-2.52-.06-3.5-.04-.97-.2-1.5-.34-1.85a3.1 3.1 0 0 0-.75-1.15 3.09 3.09 0 0 0-1.15-.75 5.6 5.6 0 0 0-1.85-.34 54.1 54.1 0 0 0-3-.06zM12 6.86a5.13 5.13 0 1 1 0 10.27 5.13 5.13 0 0 1 0-10.27zm0 1.8a3.33 3.33 0 1 0 0 6.67 3.33 3.33 0 0 0 0-6.67zm5.33-3.2a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"></path>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a rel="noopener" target="_blank" href="#" title="Le Louvre sur Twitter" class="SocialLinks_link">
+                                                <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="fales" aria-hidden="true" class="Svg">
+                                                    <path d="M22 5.88c-.75.37-1.5.5-2.38.62.88-.5 1.5-1.25 1.75-2.25a8.2 8.2 0 0 1-2.62 1 4.36 4.36 0 0 0-3-1.25c-2.13 0-4 1.88-4 4.13 0 .37 0 .62.13.87a11.5 11.5 0 0 1-8.5-4.25 3.8 3.8 0 0 0-.5 2.13 4.1 4.1 0 0 0 1.87 3.37c-.63 0-1.25-.25-1.88-.5 0 2 1.38 3.63 3.25 4-.37.13-.75.13-1.12.13-.25 0-.5 0-.75-.13.5 1.63 2 2.88 3.88 2.88A7.95 7.95 0 0 1 3 18.38H2a12.2 12.2 0 0 0 6.25 1.87c7.5 0 11.63-6.25 11.63-11.63v-.5A7.27 7.27 0 0 0 22 5.88z"></path>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a rel="noopener" target="_blank" href="#" title="Le Louvre sur Youtube" class="SocialLinks_link">
+                                                <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="fales" aria-hidden="true" class="Svg">
+                                                    <path d="M10.03 15.38V8.62L15.97 12l-5.94 3.38zm13.2-8.88a2.85 2.85 0 0 0-2-2.02C19.46 4 12.35 4 12.35 4s-7.1 0-8.87.48a2.85 2.85 0 0 0-2 2.02C1 8.28 1 12 1 12s0 3.72.47 5.5a2.85 2.85 0 0 0 2.01 2.02c1.77.48 8.88.48 8.88.48s7.1 0 8.87-.48a2.85 2.85 0 0 0 2-2.02c.48-1.78.48-5.5.48-5.5s0-3.72-.47-5.5z"></path>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a rel="noopener" target="_blank" href="#" title="Le Louvre sur Pinterest" class="SocialLinks_link">
+                                                <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="fales" aria-hidden="true" class="Svg">
+                                                    <path d="M12 2a10 10 0 0 0-3.64 19.3c-.1-.79-.17-2 .03-2.87l1.17-4.97s-.3-.6-.3-1.48c0-1.39.81-2.42 1.82-2.42.85 0 1.27.64 1.27 1.4 0 .86-.55 2.14-.84 3.33-.24 1 .5 1.81 1.49 1.81 1.78 0 3.14-1.87 3.14-4.57 0-2.4-1.72-4.06-4.18-4.06a4.33 4.33 0 0 0-4.52 4.33c0 .86.33 1.78.74 2.28.08.1.09.19.06.29l-.28 1.13c-.04.18-.15.23-.33.14-1.26-.59-2.04-2.4-2.04-3.88 0-3.15 2.3-6.04 6.62-6.04 3.46 0 6.17 2.46 6.17 5.77 0 3.45-2.18 6.22-5.2 6.22-1 0-1.96-.53-2.28-1.15l-.63 2.37a11 11 0 0 1-1.24 2.63A10 10 0 1 0 12 2z"></path>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a rel="noopener" target="_blank" href="#" title="Le Louvre sur Linkedin" class="SocialLinks_link">
+                                                <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="fales" aria-hidden="true" class="Svg">
+                                                    <path d="M6.44 8.2a1.74 1.74 0 1 0 0-3.47 1.74 1.74 0 0 0 0 3.47m-1.51 6.08v4.58c0 .16.03.23.2.23h2.62c.16 0 .2-.06.2-.21v-9.2c0-.16-.06-.2-.22-.2H5.16c-.18 0-.22.05-.22.23v4.57m7.74-3.55V9.7c0-.18-.05-.23-.22-.22H10c-.25 0-.25 0-.25.24v9.12c0 .2.06.25.24.25h2.53c.25 0 .25 0 .25-.25v-4.59c0-.32.03-.64.08-.95.12-.64.42-1.17 1.1-1.34.21-.05.44-.06.65-.06.72.01 1.16.35 1.32 1.04.09.38.12.79.12 1.18a371 371 0 0 1 0 4.72c0 .19.06.25.25.25h2.53c.18 0 .25-.05.24-.24 0-1.83.02-3.65-.01-5.47-.01-.6-.1-1.22-.23-1.81-.24-1.06-.86-1.84-1.94-2.14-.38-.1-.77-.13-1.16-.18a3.08 3.08 0 0 0-1.86.37c-.49.27-.88.64-1.2 1.1m-.68-8.71L20.51 2A1.46 1.46 0 0 1 22 3.43v17.15c0 .76-.6 1.39-1.36 1.42H3.5c-.7 0-1.24-.38-1.43-1.03a1.51 1.51 0 0 1-.06-.42V3.45c0-.8.61-1.43 1.42-1.44H12"></path>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <img src="imags/loge.PNG" alt >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="Header_langues">
+                <div class="popover" aria-hidden="false">
+                    <button type="button" class="popover_button" aria-expanded="false">
+                        Français
+                    <svg viewBox="0 0 16 16" width="1em" height="1em" focusable="fales" aria-hidden="true" class="popover_chevron Svg">
+                        <path d="M8.13 10.75 3.75 6.37l.88-.87L8.13 9l3.5-3.5.87.88z"></path>
+                    </svg>
+                    </button>
+                    <ul class="droplist">
+                        <li><a class="langues">Langues</a></li>
+                        <li><a href="#" class="leftli">English</a></li>
+                        <li><a href="#" class="leftli fr">Français</a></li>
+                        <li><a href="#" class="leftli">Español</a></li>
+                        <li><a href="#" class="leftli">中文</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Header_home">
+                <h1 class="Header_Home">
+                    <a class="Header_Home_link" style="--ratio:5.230769230769231" href="#">
+                        <p class="Header_Home_logo">Louvre</p>
+                    </a>
+                </h1>
+            </div>
+            <ul class="Header_links">
+                <li>
+                    <a rel="noopener" href="#" style="--color:#000;--color-hover:#1a1a1a" class="Bouton Header_Boutique Bouton_size-small Bouton_width-fixed Bouton_fill-full Bouton_dark Bouton_colored">
+                        <span class="Bouton_content">
+                        <span class="Bouton_icon Bouton_left">
+                            <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="false" aria-hidden="true" class="Svg">
+                                <path d="M11.57 2c-1.78 0-3.2 1.28-3.2 2.86V7H5.14a.71.71 0 0 0-.72.64L3 21.21a.72.72 0 0 0 .72.79h15.71a.71.71 0 0 0 .72-.79L18.72 7.64A.71.71 0 0 0 18 7h-3.22V4.86c0-1.58-1.43-2.86-3.21-2.86zM9.8 4.86c0-.8.8-1.43 1.78-1.43 1 0 1.8.64 1.8 1.43V7h-3.6V4.86zm7.57 3.57 1.28 12.14H4.51L5.79 8.43h2.57v1.43a.71.71 0 1 0 1.43 0V8.43h3.57v1.43a.71.71 0 1 0 1.43 0V8.43h2.57z">
+                                </path>
+                            </svg>
+                        </sapn>
+                        <span class="Bouton_nobreak">&nbsp;
+                        </span>
+                        <span class="Bouton_label">E-Boutique
+                        </span>
+                        </span>
+                    </a>
+                </li>
+                <a rel="noopener" href="#" style="--color:#008573;--color-hover:#0a4f51" class="Bouton Header_Billetterie Bouton_size-small Bouton_width-fixed Bouton_fill-full Bouton_dark Bouton_colored">
+                    <span class="Bouton_content">
+                        <span class="Bouton_icon bouton_left">
+                            <svg viewBox="0 0 16 16" width="1em" height="1em" focusable="false" aria-hidden="true" class="Svg">
+                                <path d="M9.13.5a.9.9 0 0 1 1.28 0l1.17 1.18c.2.2.3.5.25.79a1.48 1.48 0 0 0 1.7 1.7c.3-.04.59.05.79.25l1.17 1.17a.9.9 0 0 1 0 1.28L6.87 15.5a.9.9 0 0 1-1.28 0L.51 10.41a.9.9 0 0 1 0-1.28zm.64.78L1.28 9.77l4.95 4.95 8.49-8.49-1.1-1.1c-.74.15-1.52-.1-2.08-.67s-.82-1.34-.7-2.14L9.77 1.28zm.53 5.13c.1-.1.25-.1.35 0l.35.35c.1.1.1.26 0 .36l-4.59 4.6a.27.27 0 0 1-.36 0l-.35-.36a.25.25 0 0 1 0-.36l4.6-4.59zm-2.24-.59c.1-.1.26-.1.35 0l.36.35c.1.1.1.26 0 .36L5 10.3c-.1.1-.26.1-.36 0l-.35-.35a.25.25 0 0 1 0-.36l3.77-3.77z">
+                                </path>
+                            </svg>
+                        </span>
+                        <span class="Bouton_nobreak">&nbsp;
+                        </span>
+                        <span class="Bouton_label">Billetterie
+                        </span>
+                    </span>
+                </a>
+                <li>
+                </li>
+            </ul>
+        </div>
+        <nav role="navigation" aria-label="principal" class="Header_Navigation_nav montserrat-18">
+            <div class="HorizontalList">
+                <div class="HorizontalList_scrollcontainer HorizontalList_center">
+                    <ul class="HorizontalList_track">
+                        <li class="HorizontalList_item">
+                            <a class="Header_Navigation_link Header_Navigation_first" href="#">
+                                <span class="Header_Navigation_text">
+                                    Visiter
+                                </span>
+                            </a>
+                        </li>
+                        <li class="HorizontalList_item">
+                            <a class="Header_Navigation_link" href="#">
+                                <span class="Header_Navigation_text">
+                                    Découvrir
+                                </span>
+                            </a>
+                        </li>
+                        <li class="HorizontalList_item">
+                            <a class="Header_Navigation_link" href="#">
+                                <span class="Header_Navigation_text">
+                                    En ce moment
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="HorizontalList_controls HorizontalList_min">
+                    <button type="button" class="HorizontalList_prev" aria-hidden="true" tabindex="-1" disabled style="user-select: none;">
+                        <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="false" aria-hidden="ture" class="Svg">
+                            <path d="m7.22 12.28 7.5-7.5 1.05 1.04-6.45 6.45 6.45 6.45-1.05 1.05z"></path>
+                        </svg>
+                        <span class="sr-only">previous navigation element</span>
+                    </button>
+                    <button type="button" class="HorizontalList_next" style="user-select: none;">
+                        <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="false" aria-hidden="true" class="Svg">
+                            <path d="m16.77 12.28-7.5 7.5-1.05-1.06 6.45-6.45-6.45-6.45 1.05-1.05z"></path>
+                        </svg>
+                        <span class="sr-only">next navigation item</span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="back"></div>
+    <main tabinaex="-1" role="main" class="Ecrin_white" style="scroll-margin-top: 152px;">
+        <div class="HomeCover HomeCover_lock" style="--ratio: 2.56;">
+            <picture>
+                <img src="images/cour-napoleon-et-pyramide_1.jpg" alt width="3000" height="1998" class="Image HomeCover_image cover" style="--preview:#81848d" loading="lazy" decoding="async">
+            </picture>
+            <video class="HomeCover_video cover HomeCover_Video HomeCover_Video_playing" aria-hidden="true" tabindex="-1" preload="auto" autoplay loop muted plays-inline>
+                <source type="video/mp4" src="imags/video.mp4">
+            </video>
+            <div class="HomeCover_content">
+                <div class="HomeCover_center">
+                    <h2 class="HomeCover_title">Évadez-vous au Louvre</h2>
+                    <p class="HomeCover_ctaContainer">
+                        <a rel="noopener" target="_blank" href="#" style="--color:#008573;--color-hover:#0a4f51" class="Bouton HomeCover_cta Bouton_size-big Bouton_width-variable Bouton_fill-full Bouton_dark Bouton_colored">
+                            <span class="Bouton_content">
+                                <span class="Bouton_icon Bouton_left">
+                                    <svg viewBox="0 0 16 16" width="1em" height="1em" focusable="false" aria-hidden="true" class="Svg">
+                                        <path d="M9.13.5a.9.9 0 0 1 1.28 0l1.17 1.18c.2.2.3.5.25.79a1.48 1.48 0 0 0 1.7 1.7c.3-.04.59.05.79.25l1.17 1.17a.9.9 0 0 1 0 1.28L6.87 15.5a.9.9 0 0 1-1.28 0L.51 10.41a.9.9 0 0 1 0-1.28zm.64.78L1.28 9.77l4.95 4.95 8.49-8.49-1.1-1.1c-.74.15-1.52-.1-2.08-.67s-.82-1.34-.7-2.14L9.77 1.28zm.53 5.13c.1-.1.25-.1.35 0l.35.35c.1.1.1.26 0 .36l-4.59 4.6a.27.27 0 0 1-.36 0l-.35-.36a.25.25 0 0 1 0-.36l4.6-4.59zm-2.24-.59c.1-.1.26-.1.35 0l.36.35c.1.1.1.26 0 .36L5 10.3c-.1.1-.26.1-.36 0l-.35-.35a.25.25 0 0 1 0-.36l3.77-3.77z"></path>
+                                    </svg>
+                                </span>
+                                <span class="Bouton_nobreak">&nbsp;
+                                </span>
+                                <span class="Bouton_label">
+                                    Réserver un billet
+                                </span>
+                            </span>
+                        </a>
+                    </p>
+                </div>
+                <div class="HomeCover_bottom HomeCover_Bottom">
+                    <p>
+                        <span class="OpeningStatusIndicator flux">
+                                <span class="OpeningStatusIndicator_indicator OpeningStatusIndicator_closed" data-testid="OpeningStatusIndicatorStatus">
+                                </span>
+                                <span class="OpeningStatusIndicator_right">
+                                    <span class="OpeningStatusIndicator_status" data-testid="OpeningStatusIndicatorText">
+                                        Le musée est fermé aujourd'hui
+                                    </span>
+                                    <a class="HomeCover_Bottom_link" href="#">
+                                        <span class="HomeCover_Bottom_linkText">
+                                            Voir les jours d'accès aux collections
+                                        </span>
+                                        <span class="HomeCover_Bottom_nbsp">
+                                            &nbsp
+                                        </span>
+                                        <svg viewBox="0 0 20 20" width="1em" height="1em" focusable="false" aria-hidden="true" class="Svg">
+                                            <path d="m11.8 3-1 1 5.4 5.5H1v1.4h15.2l-5.4 5.5 1 1 7.2-7.2z"></path>
+                                        </svg>
+                                    </a>
+                                </span>
+                        </span>
+                    </p>
+                    <div class="HomeCover_Bottom_slot">
+                        <button class="HomeCover_Video_button HomeCover_Video_playing HomeCover_Video_ready" type="button">
+                            <span class="HomeCover_Video_innerButton">
+                                <svg viewBox="0 0 16 16" width="1em" height="1em" focuable="false" aria-hidden="true" class="HomeCover_Video_pause Svg">
+                                    <path d="M5.8 14.4H3.6V1.6h2.2v12.8zm6.6 0h-2.2V1.6h2.2v12.8z">
+                                    </path>
+                                </svg>
+                                <span class="sr-only">
+                                    Pause decorative video
+                                </span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="BackToTop" style="--offset:0px" id="btn">
+        <a href="#top">
+            <button type="button" class="BackToTop_button">
+                <svg viewBox="0 0 16 16" width="1em" height="1em" focusable="fales" aria-hidden="true" class="Svg">
+                    <path d="m3.7 6.7 3.8-3.8V15h1V2.9l3.8 3.8.7-.7-5-5-5 5z"></path>
+                </svg>
+            </button>
+        </a>
+    </div>
+    <section class="ba">
+        <section>
+            <header>
+                <h2 class="alaune h">À la une</h2>
+            </header>
+            <nav class="nav">
+                <ul class="one">
+                    <a href="#">
+                        <li class="back1">
+                            <div class="wordA">
+                                <div class="word1">
+                                    EXPOSITION
+                                </div>
+                                <div class="word2">
+                                    NAPLES À PARIS
+                                </div>
+                                <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="false" aria-hidden="true" class="CardsSlideshow_ALaUne_icon SvgRWrapper">
+                                    <path d="m14 4-1.1 1.1 6 6.1H2v1.6h16.9l-6 6.1L14 20l8-8z"></path>
+                                </svg>
+                                <div class="word3">
+                                    Le Louvre invite le musée de Capodimonte. Du 7 juin 2023 au 8 janvier 2024.
+                                </div>
+                            </div>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="back2">
+                            <div class="wordB">
+                                <div class="word1">
+                                    EXPOSITION
+                                </div>
+                                <div class="word4">
+                                    LE TRÉSOR DE NOTRE-DAME DE 
+                                    <br> 
+                                    PARIS
+                                </div>
+                                <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="false" aria-hidden="true" class="CardsSlideshow_ALaUne_icon SvgRWrapper">
+                                    <path d="m14 4-1.1 1.1 6 6.1H2v1.6h16.9l-6 6.1L14 20l8-8z"></path>
+                                </svg>
+                                <div class="word3">
+                                    Des origines à Viollet-Le-Duc. Du 18 octobre 2023 au 29 janvier 2024
+                                </div>
+                            </div>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="back4">
+                            <div class="wordB">
+                                <div class="word1">
+                                    TOUS MÉCÈNES
+                                </div>
+                                <div class="word4">
+                                    LE "PANIER DE FRAISES" DE JEAN
+                                    <br>
+                                    SIMÉON CHARDIN
+                                </div>
+                                <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="false" aria-hidden="true" class="CardsSlideshow_ALaUne_icon SvgRWrapper">
+                                    <path d="m14 4-1.1 1.1 6 6.1H2v1.6h16.9l-6 6.1L14 20l8-8z"></path>
+                                </svg>
+                                <div class="word3">
+                                    Le musée du Louvre vous invite à participer à l’acquisition d'une œuvre emblématique du maître de la nature morte.
+                                </div>
+                            </div>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="back6">
+                            <div class="wordB">
+                                <div class="word1">
+                                    ÉVÉNEMENT
+                                </div>
+                                <div class="word4">
+                                    POUR LES FÊTES, OFFREZ LE LOUVRE 
+                                    <br> 
+                                    !
+                                </div>
+                                <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="false" aria-hidden="true" class="CardsSlideshow_ALaUne_icon SvgRWrapper">
+                                    <path d="m14 4-1.1 1.1 6 6.1H2v1.6h16.9l-6 6.1L14 20l8-8z"></path>
+                                </svg>
+                                <div class="word3">
+                                    Jeux de sociétés, livres, objets insolites… Découvrez une gamme riche et variée pour tous les âges.
+                                </div>
+                            </div>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="back7">
+                            <div class="wordB">
+                                <div class="word1">
+                                    ÉVÉNEMENT
+                                </div>
+                                <div class="word4">
+                                    PROGRAMMATION DES VACANCES DE
+                                    <br>
+                                    NOËL
+                                </div>
+                                <svg viewBox="0 0 24 24" width="1em" height="1em" focusable="false" aria-hidden="true" class="CardsSlideshow_ALaUne_icon SvgRWrapper">
+                                    <path d="m14 4-1.1 1.1 6 6.1H2v1.6h16.9l-6 6.1L14 20l8-8z"></path>
+                                </svg>
+                                <div class="word3">
+                                    Une pgrammation 100% familiale pour découvrir le Louvre et ses expositions.
+                                </div>
+                            </div>
+                        </li>
+                    </a>
+                </ul>
+            </nav>
+            <footer class="CardsSlideshow_controls">
+                <button class="ChevronButton" type="button" aria-disabled="true">
+                    <svg viewBox="0 0 16 16" width="1em" height="1em" focusable="false" aria-hidden="true" class="SvgRWrapper">
+                        <path d="M4.5 7.88 8.88 3.5l.87.88-3.5 3.5 3.5 3.5-.88.87z"></path>
+                    </svg>
+                </button>
+                <div class="Dots">
+                    <div class="Dots_dot Dots_current"></div>
+                    <div class="Dots_dot"></div>
+                    <div class="Dots_dot"></div>
+                    <div class="Dots_dot"></div>
+                    <div class="Dots_dot"></div>
+                    <p class="sr-only">1 sur 5</p>
+                </div>
+                <button class="ChevronButton" type="button">
+                    <svg viewBox="0 0 16 16" width="1em" height="1em" focusable="false" aria-hidden="true" class="SvgRWrapper">
+                        <path d="M11.5 7.88 7.12 3.5l-.87.88 3.5 3.5-3.5 3.5.88.87z"></path>
+                    </svg>
+                </button>
+            </footer>
+        </section>
+        <article class="art">
+            <h2 class="bq">BIENVENUE AU LOUVRE</h2>
+            <p class="wb">
+                Il y a toujours une bonne raison de venir au Louvre. Les 
+                <a href="#"> œuvres</a>
+                du 
+                <a href="#">palais</a>
+                vous étonnent, vous invitent à rêver, à imaginer. Il est temps de 
+                <a href="#"> préparer votre visite</a>
+                . Besoin d'inspiration ? 
+                <a href="#"> Parcours</a>
+                et 
+                <a href="#"> visites guidées</a>
+                vous font découvrir les lieux emblématiques. Et au cœur de Paris, 
+                <a href="#">les jardins</a>
+                vous accueillent.
+
+            </p>
+        </article>
+    </section>
+    <main tabindex="-1" role="main" id="main-content" class="E_wh" style="scroll-margin-top: 152px;">
+        <section class="MHB">
+            <div class="MHB_c">
+                <h2 class="MHB_t">
+                    Tous les contenus du musée sont <br \>
+                    sur Louvre+
+                </h2>
+                <p class="MHB_su">La plateforme de streaming du Louvre</p> 
+                <p class="MHB_d r-p-12">Plus de 58 séries, 808 vidéos et 19 podcasts en accès libre.</p>
+                <div class="MHB_l">
+                    <ul class="BL" style="padding-left: 0;">
+                        <li class="BL_ch">
+                            <a class="Bt Bt_b" href="">
+                                <span class="Bt_c">
+                                    <span class="Bt_l">Podcasts</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="BL_ch">
+                            <a class="Bt Bt_b" href="">
+                                <span class="Bt_c">
+                                    <span class="Bt_l">Jeunesse</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="BL_ch">
+                            <a class="Bt Bt_b" href="">
+                                <span class="Bt_c">
+                                    <span class="Bt_l">Séries</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="BL_ch">
+                            <a class="Bt Bt_b" href="">
+                                <span class="Bt_c">
+                                    <span class="Bt_l">Conférences</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                        <div class="BL_ch1">
+                            <b class="Bt_pink Bt_b" href="" >
+                                <span class="Bt_c">
+                                    <span class="Bt_l" style="color: #000;">Voir tout</span>
+                                </span>
+                            </b>
+                        </div>
+                </div>
+            </div>
+            <div class="MHB_r">
+                <picture>
+                    <source media="(min-width:1200px)" srcset="https://api-www.louvre.fr/sites/default/files/styles/w1256_h734_c0/public/2021-12/grille-visuels-louvre.jpg 1256w,
+                    https://api-www.louvre.fr/sites/default/files/styles/w1342_h784_c0/public/2021-12/grille-visuels-louvre.jpg 1342w, https://api-www.louvre.fr/sites/default/files/styles/w1416_h827_c0/public/2021-12/grille-visuels-louvre.jpg 1416w, https://api-www.louvre.fr/sites/default/files/styles/w1512_h883_c0/public/2021-12/grille-visuels-louvre.jpg 1512w,
+                    https://api-www.louvre.fr/sites/default/files/styles/w1576_h921_c0/public/2021-12/grille-visuels-louvre.jpg 1576w, 
+                    https://api-www.louvre.fr/sites/default/files/styles/w1656_h968_c0/public/2021-12/grille-visuels-louvre.jpg 1656w,
+                    https://api-www.louvre.fr/sites/default/files/styles/w1896_h1108_c0/public/2021-12/grille-visuels-louvre.jpg 1896w,
+                    https://api-www.louvre.fr/sites/default/files/styles/w2064_h1206_c0/public/2021-12/grille-visuels-louvre.jpg 2064w" 
+                    sizes="calc(100vw - 24px)">
+                    <source media="(min-width: 820px)" srcset="https://api-www.louvre.fr/sites/default/files/styles/w1206_h1206_c1/public/2021-12/grille-visuels-louvre.jpg 1206w">
+                    <source srcset="https://api-www.louvre.fr/sites/default/files/styles/w720_h823_c1/public/2021-12/grille-visuels-louvre.jpg 720w, https://api-www.louvre.fr/sites/default/files/styles/w750_h857_c1/public/2021-12/grille-visuels-louvre.jpg 750w, https://api-www.louvre.fr/sites/default/files/styles/w786_h898_c1/public/2021-12/grille-visuels-louvre.jpg 786w, https://api-www.louvre.fr/sites/default/files/styles/w828_h946_c1/public/2021-12/grille-visuels-louvre.jpg 828w, https://api-www.louvre.fr/sites/default/files/styles/w856_h978_c1/public/2021-12/grille-visuels-louvre.jpg 856w,
+                    https://api-www.louvre.fr/sites/default/files/styles/w1056_h1207_c1/public/2021-12/grille-visuels-louvre.jpg 1056w" sizes="100vw">
+                    <img src="/image/grille-visuels-louvre.webp" alt loading="lazy" decoding="async" width="2064" height="1206"  class="
+                    Image MHB_i cover" >
+                
+                </picture>
+            </div>
+        </section>
+        <section class="BC_HLC container white no-bg">
+            <div class="BC_HLC_h">
+                <h2 class="BC_HLC_t">Louvre chez vous</h2>
+            </div>
+            <div class="HSL">
+                <div class="flux">
+                    <div class="CSs" >
+                        <ul draggable="false" style="user-select: none;">
+                            <a href="#">
+                                <li class="TK yqba1">
+                                    <div class="wordC">
+                                        <div class="yqword1">
+                                            Les Odyssées du Louvre
+                                        </div>
+                                        <div class="yqword2">
+                                            Le podcast pour les 7-12 ans autour des œuvres
+                                            <br>
+                                            et des personnalités du musée
+                                            <span class="whi1">Podcasts</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="TK yqba2">
+                                    <div class="wordC">
+                                        <div class="yqword1">
+                                            Mythes et légendes
+                                        </div>
+                                        <div class="yqword2">
+                                            Suivez-nous au cœur du Pavillon des Sessions 
+                                            <br>
+                                            pour notre nouvelle série de contes !
+                                            <span class="whi2">Petit Louvre</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="TK yqba3">
+                                    <div class="wordD">
+                                        <div class="yqword1">
+                                            Les Enquêtes du Louvre
+                                        </div>
+                                        <div class="yqword2">
+                                            La série qui mêle art et crime...
+                                            <span class="whi1">Podcasts</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="TK yqba4">
+                                    <div class="wordC">
+                                        <div class="yqword3">
+                                            Les histoires de Petit 
+                                            <br>
+                                            Louvre
+                                        </div>
+                                        <div class="yqword2">
+                                            Des histoires pour les enfants et toute la famille
+                                            <span class="whi2">Petit Louvre</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="TK yqba5">
+                                    <div class="wordE">
+                                        <div class="yqword3">
+                                            A la découverte du 
+                                            <br>
+                                            Louvre
+                                        </div>
+                                        <div class="yqword2">
+                                            Laissez-vous guider à travers son histoire, ses
+                                            <br>
+                                            collections et ses chefs-d'œuvre.
+                                            <span class="whi3">Séries</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="TK yqba6">
+                                    <div class="wordC">
+                                        <div class="yqword1">
+                                            Conférences
+                                        </div>
+                                        <div class="yqword2">
+                                            Voir les conférences captées à l'Auditorium en 
+                                            <br>
+                                            replay
+                                            <span class="whi4">En replay</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="TK yqba7">
+                                    <div class="wordC">
+                                        <div class="yqword1">
+                                            Les visites en ligne
+                                        </div>
+                                        <div class="yqword2">
+                                            Revisitez les expositions de la Petite Galerie 
+                                            <br>
+                                            depuis chez vous
+                                            <span class="whi5">Visites virtuelles</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="CSs_c">
+                        <button class="ChevronButton" type="button">
+                            <svg viewBox="0 0 16 16" width="1em" height="1em" focusable="false" aria-hidden="true" class="SvgRWrapper">
+                                <path d="M4.5 7.88 8.88 3.5l.87.88-3.5 3.5 3.5 3.5-.88.87z">
+                                </path>
+                            </svg>
+                            <span class="sr-only">Louvre chez vous précédents</span></button>
+                        <div class="Dots">
+                            <div class="Dots_dot Dots_current"></div>
+                            <div class="Dots_dot"></div>
+                            <div class="Dots_dot"></div>
+                            <div class="Dots_dot"></div>
+                            <p class="sr-only">1 sur 4</p>
+                        </div>
+                        <button class="ChevronButton" type="button">
+                        <svg viewBox="0 0 16 16" width="1em" height="1em" focusable="false" aria-hidden="true" class="SvgRWrapper">
+                            <path d="M11.5 7.88 7.12 3.5l-.87.88 3.5 3.5-3.5 3.5.88.87z">
+                            </path>
+                        </svg>
+                        <span class="sr-only">Louvre chez vous suivants</span></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="touming"></div>
+    <div class="syfsb">
+        <div class="jb">
+            <a class="anniu" href="html/blog.html">
+                <span class="">Découvrir</span>
+            </a>
+        </div>
+    </div>
+    <section class="PLONGEZ-AU-CŒUR-DU-LOUVRE">
+        <div class="plongez-1">PLONGEZ AU CŒUR DU LOUVRE</div>
+        <div class="pic">
+            <img class="p1" src="imags/01.jpg"/>
+            <img class="p2" src="imags/02.jpg"/>
+            <img class="" src="imags/03.jpg"/>
+            <img class="" src="imags/04.jpg"/>
+            <img class="p5" src="imags/05.jpg"/>
+            <img class="" src="imags/06.jpg"/>
+            <img class="p7" src="imags/07.jpg"/>
+            <img class="p8" src="imags/08.jpg"/>
+            <img class="p9" src="imags/09.jpg"/>
+        </div>
+    </section>
+    <section class="VOUS-SOUHAITEZ">
+        <main class="line" >
+            <span >VOUS SOUHAITEZ</span>
+        </main>
+
+        <main class="vous-ul">
+            <ul>
+                <li onmouseover="changeImage1()" onmouseout="changeImage2()">
+                    <a class="jian" href="#">
+                        <svg class="jiantou" viewBox="0 0 24 24"><path d="m16.77 12.28-7.5 7.5-1.05-1.06 6.45-6.45-6.45-6.45 1.05-1.05z"></path></svg>
+                        <div class="Venir">
+                            <svg class="voussvg" viewBox="0 0 64 64"><path d="M53.77 57.39c1.65 0 3.22-.67 4.38-1.84A6.35 6.35 0 0 0 60 51.1a6 6 0 0 0-1.84-4.38 6.17 6.17 0 0 0-4.38-1.84c-.6 0-1.2.06-1.8.19h-.12L33.44 27.28l-4.26-4.11-8-7.56L19.67 14l-1.94-1.88a33.04 33.04 0 0 0-5.16-4A9.21 9.21 0 0 0 8 6.61H5a1 1 0 0 0 0 2h3c1.24.11 2.42.53 3.46 1.21a30.92 30.92 0 0 1 4.86 3.79l2 1.91v12.66c.02 2.39.63 4.73 1.79 6.82l.09.15L16.27 39c-.19.21-.3.48-.34.77v5.12h-.18a6.13 6.13 0 0 0-3.18 1.78 6 6 0 0 0-1.84 4.38 6.3 6.3 0 0 0 1.85 4.45 6.22 6.22 0 0 0 8.83 0 6.36 6.36 0 0 0 1.85-4.45 6 6 0 0 0-1.84-4.38l-.07-.13a6.38 6.38 0 0 0-3.15-1.63h-.18V40.2l3.33-3.33.16.19c.32.35.65.68 1 1a14 14 0 0 0 10 4.15H46l4 3.84-.16.16-.16.14c-.1.09-.2.18-.28.29a6 6 0 0 0-1.84 4.38c0 1.67.67 3.27 1.84 4.45a6.2 6.2 0 0 0 4.37 1.92zM19.94 48l.07.07v.07a4.19 4.19 0 0 1-.07 5.92 4.18 4.18 0 0 1-5.94.02 4.2 4.2 0 0 1 0-6 4 4 0 0 1 3-1.16c1.08 0 2.12.38 2.94 1.08zm12.49-7.84a11.92 11.92 0 0 1-12-12V17.57l23.42 22.62-11.42-.03zm18.34 7.92a4.13 4.13 0 0 1 3-1.19 4.2 4.2 0 0 1 2.93 7.19 4 4 0 0 1-2.92 1.25 4.23 4.23 0 0 1-3-7.23l-.01-.02z"></path></svg>
+                            <span >Venir en famille</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li onmouseover="changeImage3()" onmouseout="changeImage4()">
+                    <a class="jian" href="#">
+                        <svg class="jiantou" viewBox="0 0 24 24"><path d="m16.77 12.28-7.5 7.5-1.05-1.06 6.45-6.45-6.45-6.45 1.05-1.05z"></path></svg>
+                        <div class="Venir">
+                            <svg class="voussvg" viewBox="0 0 64 64"><path d="M29.05 18.6a5.81 5.81 0 0 1 5.82.9 8.22 8.22 0 0 1 2.42 3.38c.23.7.41 1.43.54 2.16l.27 2.52.27.36.36.36 7.43 4.22a1.13 1.13 0 0 1-1.07 2l-7.64-4.38c-.4-.3-.74-.66-1-1.08l-.45-.8-.26-2.88a9.44 9.44 0 0 0-.45-1.71c-.09-.18-.18-.45-.27-.63a4.52 4.52 0 0 0-1.43-1.79 3.85 3.85 0 0 0-3.58-.63c-1.26.54-1.52 1.68-1.61 3.68a36 36 0 0 0 1.34 10.25c.29 1.49.65 2.96 1 4.49a21.4 21.4 0 0 0 1 3.42c.18.53.99.8 2.42.89 1.43.09 9.22-.09 10.3-.09H45l.37.41a1 1 0 0 1 .27 1l-2 12c-.1.38 0 .78.27 1.07a1 1 0 0 0 1 .54c.62.02 1.18-.4 1.34-1 .99-3.23 1.88-6.38 2.78-9.61.09-.36.18-.63.27-.9.62-1.98 1.16-3.96.35-5.57-.09-.27-.35-.54-1.52-.63-.54-.08-6-.72-8.24-1.08l-2.06-.27a1.13 1.13 0 0 1 .27-2.25l2.15.27c2.15.36 7.61.99 8.15 1.08.72.09 2.51.27 3.31 1.8 1.29 2.34.45 5.03-.35 7.37l-.27.81c-.9 3.14-1.88 6.38-2.78 9.61a3.66 3.66 0 0 1-3.49 2.61h-.09A3.73 3.73 0 0 1 42 59.15a3.42 3.42 0 0 1-.76-2.89l1.8-10.7c-2.51 0-7.98.09-9.23 0-.81-.09-3.49-.27-4.3-2.34a25.4 25.4 0 0 1-1.07-3.59c-.37-1.58-.73-3.15-1-4.58a39.2 39.2 0 0 1-1.34-10.88c.09-1.57.18-4.31 2.95-5.57zm-6.76 7.12a1.14 1.14 0 0 1 .71 2.16 13.25 13.25 0 0 0-8.65 8.7 13.64 13.64 0 0 0 1 10.07 13.11 13.11 0 0 0 20.87 3.23 1.14 1.14 0 1 1 1.61 1.62 15.23 15.23 0 0 1-15.32 3.7 15.63 15.63 0 0 1-9.13-7.55 15.82 15.82 0 0 1-1.08-11.78c1.48-4.81 5.2-8.6 9.99-10.15zM34.06 4.49l.28.01c1.58.02 3.08.71 4.12 1.9A5.48 5.48 0 0 1 40 10.71a6.11 6.11 0 0 1-1.93 4.17 5.6 5.6 0 0 1-4 1.62h-.18a6.08 6.08 0 0 1-5.77-6.24A6.07 6.07 0 0 1 30 6.13a5.85 5.85 0 0 1 4.34-1.63zm.08 2.16h-.09a3.69 3.69 0 0 0-3.67 3.61c-.08 1 .29 2 1 2.7a3.67 3.67 0 0 0 2.6 1.17c1 .04 1.96-.32 2.69-1v.01a3.08 3.08 0 0 0 1.07-2.63c.08-1-.29-2-1-2.7a3.68 3.68 0 0 0-2.6-1.16z"></path></svg>
+                            <span >Visiter en fonction de votre handicap</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li onmouseover="changeImage5()" onmouseout="changeImage6()">
+                    <a class="jian" href="#">
+                        <svg class="jiantou" style="text-align: right;" viewBox="0 0 24 24"><path d="m16.77 12.28-7.5 7.5-1.05-1.06 6.45-6.45-6.45-6.45 1.05-1.05z"></path></svg>
+                        <div class="Venir">
+                            <svg class="voussvg" viewBox="0 0 64 64"><path d="M33.6 18C39.32 18 44 22.67 44 28.4v12.27c0 1.84-1.5 3.33-3.33 3.33h-1.64l-.08 14.95c0 1.88-1.25 3.05-3.26 3.05h-7.68a3 3 0 0 1-3-3L25 44.04 23.33 44A3.33 3.33 0 0 1 20 40.67V28.41C20 22.67 24.67 18 30.4 18zm0 2h-3.2a8.42 8.42 0 0 0-8.4 8.4v12.27c0 .73.6 1.33 1.33 1.33h1.63c1.13 0 2.04.91 2.04 2.04V59a1 1 0 0 0 1.01 1h7.68c1.16 0 1.26-.54 1.26-1.05L37 44.03c0-1.12.91-2.03 2.03-2.03h1.64c.73 0 1.33-.6 1.33-1.33V28.41A8.41 8.41 0 0 0 33.6 20zm16.56 4A7.85 7.85 0 0 1 58 31.84v9.04A3.12 3.12 0 0 1 55 44v8.69A3.32 3.32 0 0 1 51.69 56h-5.63A3.07 3.07 0 0 1 43 52.94v-7a1 1 0 1 1 2 0v7c0 .58.48 1.06 1.06 1.06h5.62c.73 0 1.32-.59 1.32-1.31v-9.22c0-.81.66-1.47 1.47-1.47h.41c.62 0 1.12-.5 1.12-1.12v-9.04A5.85 5.85 0 0 0 50.16 26h-2.32a1 1 0 1 1 0-2zm-34 0a1 1 0 1 1 0 2h-2.32A5.85 5.85 0 0 0 8 31.84v9.04C8 41.5 8.5 42 9.12 42h.4c.82 0 1.48.66 1.48 1.47v9.21c0 .73.59 1.32 1.31 1.32h5.63c.58 0 1.06-.48 1.06-1.06v-7a1 1 0 1 1 2 0v7A3.07 3.07 0 0 1 17.94 56H12.3A3.32 3.32 0 0 1 9 52.69v-8.7a3.12 3.12 0 0 1-3-3.1v-9.05A7.85 7.85 0 0 1 13.84 24zM49 12a5 5 0 1 1-.01 10.01A5 5 0 0 1 49 12zm-34 0a5 5 0 1 1-.01 10.01A5 5 0 0 1 15 12zm34 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm-34 0a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM32 2a7 7 0 0 1 0 14 7 7 0 0 1 0-14zm0 2a5 5 0 1 0 .01 10.01A5 5 0 0 0 32 4z"></path></svg>
+                            <span >Venir en groupe</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li onmouseover="changeImage7()" onmouseout="changeImage8()">
+                    <a class="jian" href="#">
+                        <svg class="jiantou" viewBox="0 0 24 24"><path d="m16.77 12.28-7.5 7.5-1.05-1.06 6.45-6.45-6.45-6.45 1.05-1.05z"></path></svg>
+                        <div class="Venir">
+                            <svg class="voussvg" viewBox="0 0 64 64"><path d="M13 39h38V6H13v33zM33 4V3a1 1 0 0 0-2 0v1H9a1 1 0 0 0 0 2h2v34a1 1 0 0 0 1 1h40a1 1 0 0 0 1-1V6h2a1 1 0 0 0 0-2H33zm0 56V45h7a1 1 0 0 0 0-2H24a1 1 0 0 0 0 2h7v15H19a1 1 0 0 0 0 2h26a1 1 0 0 0 0-2H33zm6.25-37.5a1 1 0 0 0-1-1H33v-5.25a1 1 0 0 0-1-1 7.26 7.26 0 0 0 0 14.5c4 0 7.25-3.25 7.25-7.25z"></path></svg>
+                            <span >Vous former et transmettre</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li onmouseover="changeImage9()" onmouseout="changeImage10()">
+                    <a class="jian" href="#">
+                        <svg class="jiantou" viewBox="0 0 24 24"><path d="m16.77 12.28-7.5 7.5-1.05-1.06 6.45-6.45-6.45-6.45 1.05-1.05z"></path></svg>
+                        <div class="Venir">
+                            <svg class="voussvg" viewBox="0 0 64 64"><path d="M43.1 3c.93 0 1.8.35 2.47 1 1.35 1.3 3.7 4.34 4.29 10.15a1 1 0 0 1-.9 1.1 1.02 1.02 0 0 1-1.1-.9c-.52-5.17-2.53-7.8-3.67-8.91a1.6 1.6 0 0 0-1.1-.44H11.22l.14.15c5.67 7.29 3.44 15.71.53 24.01l-.26.76-.4 1.13-.28.75C9.01 37.2 7 42.77 7 48c0 1.27.06 2.39.16 3.38.08-.52.18-1.03.3-1.5.69-2.43 2-3.88 3.54-3.88h29.38a30.4 30.4 0 0 1 1.08-6.76 1 1 0 0 1 1.93.53c-.6 2.22-.92 4.26-1 6.23H46c2.28 0 4 3.23 4 7.5S48.28 61 46 61H11c-.03 0-.13 0-.28-.03-.2-.02-.39-.06-.57-.13C8.48 60.31 5 58 5 48c0-5.58 2.06-11.32 4.06-16.88 1.63-4.53 3.21-8.94 3.67-13.12H7c-2.28 0-4-3.23-4-7.5 0-2.08.4-3.81 1.2-5.17A4.85 4.85 0 0 1 8.4 3zM46 48H13.98c.69 1.46 1.02 3.52 1.02 5.5s-.33 4.04-1.02 5.5H46c.8 0 2-2.2 2-5.5S46.8 48 46 48zm-33.02 6H9.02c.12 3 1.21 4.97 1.97 5h.51c.41-.06 1.38-1.9 1.48-5zm-1.48-6H11c-.46 0-1.16.83-1.6 2.41-.14.5-.24 1.03-.3 1.59h3.82c-.25-2.5-1.05-3.94-1.42-4zM42 15a11 11 0 0 1 8.88 17.47l9.14 9.14a1 1 0 0 1-1.41 1.41l-9.05-9.05A10.95 10.95 0 0 1 42 37a11.01 11.01 0 0 1 0-22zM30 38a1 1 0 1 1 0 2H18a1 1 0 1 1 0-2zm12-21a9.01 9.01 0 0 0 0 18 9.01 9.01 0 0 0 0-18zM27.83 31.91a1 1 0 1 1 0 2h-12a1 1 0 1 1 0-2zm-2-6a1 1 0 1 1 0 2h-8a1 1 0 1 1 0-2zm1-6a1 1 0 1 1 0 2h-7a1 1 0 1 1 0-2zM8 5.37a2.1 2.1 0 0 0-1.6.47 1.9 1.9 0 0 0-.5.6h-.02c-.15.27-.28.55-.4.87.7-.7 1.57-1.1 2.4-1.1.94 0 1.76.48 2.32 1.34.54.83.81 1.99.81 3.45 0 2.4-.47 3.96-1.07 5h2.93c.06-3.4-.76-6.63-3.09-9.63a2.64 2.64 0 0 0-1.78-1zM8.96 12H5.09c.29 2.45 1.24 4 1.91 4 .6-.05 1.76-.96 1.97-4zM30 14a1 1 0 1 1 0 2h-9a1 1 0 1 1 0-2zM7.9 8.21h-.04c-.58 0-1.4.69-1.72 1.79h2.8a3.26 3.26 0 0 0-.43-1.36c-.27-.43-.55-.43-.65-.43z"></path></svg>
+                            <span >Trouver des ressources scientifques</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li onmouseover="changeImage11()" onmouseout="changeImage12()">
+                    <a class="jian" href="#">
+                        <svg class="jiantou" viewBox="0 0 24 24"><path d="m16.77 12.28-7.5 7.5-1.05-1.06 6.45-6.45-6.45-6.45 1.05-1.05z"></path></svg>
+                        <div class="Venir">
+                            <svg class="voussvg" viewBox="0 0 64 64" width="1em" height="1em" focusable="false" aria-hidden="true" class="HomePublics_icon SvgRWrapper"><path d="M38.19 37.37h4.76V32.6H38.2v4.76zm-8.33 0h4.76V32.6h-4.76v4.76zm-8.34 0h4.76V32.6h-4.76v4.76zm16.67-8.33h4.76v-4.77H38.2v4.77zm-8.33 0h4.76v-4.77h-4.76v4.77zm-8.34 0h4.76v-4.77h-4.76v4.77zM38.2 20.7h4.76v-4.76H38.2v4.76zm-8.33 0h4.76v-4.76h-4.76v4.76zm-8.34 0h4.76v-4.76h-4.76v4.76zM48.1 60.18h-9.9v-6.71a2.01 2.01 0 0 0-2.01-2H28.3a2.01 2.01 0 0 0-2.01 2v6.7h-9.9v-49.4c0-.35.22-.66.57-.78l15-4.94a.89.89 0 0 1 .55 0l15 4.94a.82.82 0 0 1 .59.78v49.42zm-11.91 0-7.9-.01.02-6.7h7.89l-.01 6.7zm15.3 0H50.1V10.76a2.83 2.83 0 0 0-1.95-2.68l-15-4.94a2.87 2.87 0 0 0-.9-.14c-.3 0-.61.05-.9.14l-15 4.94a2.83 2.83 0 0 0-1.96 2.68v49.42H13a1 1 0 0 0 0 2h38.48a1 1 0 0 0 0-2z"></path></svg>
+                            <span >Devenir une entreprise mécène</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <main class="vousimg">
+                <div>
+                    <img src="imags/10.png" id="syf">
+                </div>
+            </main>    
+        </main>
+    </section>
+    <footer>
+        <footer role=contentinfo class=Footer>
+            <div class="Footer_Newsletter grid">
+                <div class="Footer_Newsletter_content">
+                    <p role="heading" aria-level="2" class="Footer_Newsletter_title">Restons en contact
+                    </p>
+                    <div class="Wysiwyg Footer_Newsletter_paragraph roboto-p-18 Wysiwyg_black">
+                        <p>Recevez des nouvelles du Louvre selon vos goûts !
+                        </p>
+                    </div>
+                    <a rel="noopener" target="_blank" href="#" class="Bouton Footer_Newsletter_button Bouton_size-big Bouton_width-fixed Bouton_fill-full Bouton_dark">
+                        <span class="Bouton_content">
+                            <span class="Bouton_icon Bouton_left">
+                                <svg viewBox="0 0 20 20" width="1em" height="1em" focusable="false" aria-hidden="true" class="Svg">
+                                    <path d="M17.5 3.75h-15c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h15c.69 0 1.25-.56 1.25-1.25V5c0-.69-.56-1.25-1.25-1.25zM16.12 5 10 9.24 3.87 5h12.25zM2.5 15V5.57l7.14 4.94c.22.15.5.15.72 0l7.14-4.94V15h-15z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span class="Bouton_nobreak">&nbsp;
+                            </span>
+                            <span class="Bouton_label">Inscrivez-vous
+                            </span>
+                        </span>
+                    </a>
+                    <div class="Footer_Newsletter_mask">
+                    </div>
+                </div>
+            </div>
+            <div class="Footer_footer grid">
+                <ul class=Footer_Links>
+                    <li class=Footer_Links_column>
+                        <p role=heading aria-level=2 class="Footer_Links_title montserrat-14">
+                        <span>À PROPOS</span>
+                        <ul>
+                            <li class=Links_List_li>
+                                <a class=Links_List_link href="">L'établissement public</a>
+                                <li class=Links_List_li>
+                                    <a class=Links_List_link href="">Le Louvre en France et dans le monde</a>
+                                    <li class=Links_List_li>
+                                        <a class=Links_List_link href="">Règlement de visite</a>
+                                        <li class=Links_List_li>
+                                            <a class=Links_List_link href="">Prêts et dépôts</a>
+                                            <li class="Links_List_li">
+                                                <a class="Links_List_link" href="">Commande publique et occupation domaniale</a>
+                                                <li class="Links_List_li">
+                                                    <a class="Links_List_link" href="">Actes administratifs</a>
+                        </ul>
+                        <li class=Footer_Links_column>
+                            <p role=heading aria-level=2 class="Footer_Links_title montserrat-14">
+                            <span>NOS SITES</span>
+                            <ul>
+                                <li class=Links_List_li><a rel=noopener target=_blank href="" class=Links_List_link>Billetterie</a>
+                                <li class=Links_List_li><a rel=noopener target=_blank href="" class=Links_List_link>Boutique en ligne</a>
+                                <li class=Links_List_li><a rel=noopener target=_blank href="" class=Links_List_link>Collections</a>
+                                <li class=Links_List_li><a rel=noopener target=_blank href="" class=Links_List_link>Corpus</a>
+                                <li class=Links_List_li><a rel=noopener target=_blank href="" class=Links_List_link>Don en ligne</a>
+                                <li class=Links_List_li><a rel=noopener target=_blank href="" class=Links_List_link>Éditions</a>
+                                <li class=Links_List_li><a rel=noopener target=_blank href="" class=Links_List_link>Presse</a>
+                            </ul>
+                            <li class=Footer_Links_column>
+                                <p role=heading aria-level=2 class="Footer_Links_title montserrat-14">
+                                <span>NOUS CONTACTER</span>
+                                <ul>
+                                    <li class=Links_List_li><a class=Links_List_link href="">FAQ</a>
+                                    <li class=Links_List_li><a class=Links_List_link href="">Contacts</a>
+                                    <li class=Links_List_li><a rel=noopener target=_blank href="" class=Links_List_link>Donnez-nous votre avis !</a>
+                                    <li class=Links_List_li><a class=Links_List_link href="">Offres d’emploi - concours</a>
+                                    <li class=Links_List_li><a class=Links_List_link href="">Privatisations et tournages</a>
+                                    <li class=Links_List_li><a class=Links_List_link href="">Louvre Conseil</a>
+                                </ul>
+                            </ul>
+                            <div class=Footer_right>
+                                <div class=Footer_Socials>
+                                    <div class="Footer_Socials_title montserrat-14">
+                                        <p role=heading aria-level=2>SUIVEZ-NOUS<hr>
+                                    </div>
+                                    <ul class=SocialLinks_socials>
+                                        <li><a rel=noopener target=_blank href=""
+                                            title="Le Louvre sur Facebook"
+                                            class=SocialLinks_link>
+                                                <svg viewBox="0 0 24 24"
+                                                width=1em height=1em focusable=false
+                                                aria-hidden=true class=SvgRWrapper>
+                                                    <path
+                                                    d="m9.78 22-.03-8.75H6V9.5h3.75V7c0-3.37 2.09-5 5.1-5 1.44 0 2.68.1 3.04.15v3.53H15.8c-1.63 0-1.95.78-1.95 1.92v1.9h4.65l-1.25 3.75h-3.4V22H9.78z">
+                                                    </path>
+                                                </svg>
+                                            </a>
+                                        <li><a rel=noopener target=_blank href=""
+                                            title="Le Louvre sur Instagram"
+                                            class=SocialLinks_link>
+                                                <svg viewBox="0 0 24 24"
+                                                width=1em height=1em focusable=false
+                                                aria-hidden=true class=SvgRWrapper>
+                                                    <path 
+                                                    d="M13.02 2c1.8 0 2.18.02 3.1.06 1.06.05 1.79.22 2.42.47.66.25 1.22.6 1.77 1.15.56.55.9 1.11 1.16 1.77.25.63.41 1.36.46 2.43.05.95.06 1.32.06 3.32v1.6c0 2-.01 2.37-.06 3.32a7.33 7.33 0 0 1-.46 2.42c-.26.66-.6 1.22-1.15 1.77-.56.56-1.12.9-1.78 1.16-.63.25-1.36.41-2.42.46-.95.05-1.33.06-3.33.06H11.2c-2 0-2.37-.01-3.33-.06a7.34 7.34 0 0 1-2.42-.46 4.91 4.91 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.16-1.78 7.35 7.35 0 0 1-.46-2.42 55.2 55.2 0 0 1-.06-3.1v-2.05c0-1.8.02-2.18.06-3.1.05-1.06.22-1.79.46-2.42.26-.66.6-1.22 1.16-1.77a4.7 4.7 0 0 1 1.77-1.15 7.35 7.35 0 0 1 2.42-.47c.92-.04 1.3-.06 3.1-.06zm.02 1.8h-2.09c-1.73 0-2.1.02-3 .06-.97.04-1.5.2-1.85.34-.47.18-.8.4-1.15.75-.35.35-.57.68-.75 1.15-.13.35-.3.88-.34 1.86-.04.9-.06 1.26-.06 3v2.08c0 1.74.02 2.1.06 3 .04.97.2 1.5.34 1.85.18.47.4.8.75 1.15.35.35.68.57 1.15.75.35.14.88.3 1.86.34.97.05 1.32.06 3.48.06h1.11c2.17 0 2.51-.01 3.49-.06.97-.04 1.5-.2 1.85-.34.47-.18.8-.4 1.15-.75.35-.35.57-.68.75-1.15.14-.35.3-.88.34-1.85.05-.98.06-1.32.06-3.49v-1.1c0-2.17-.01-2.52-.06-3.5-.04-.97-.2-1.5-.34-1.85a3.1 3.1 0 0 0-.75-1.15 3.09 3.09 0 0 0-1.15-.75 5.6 5.6 0 0 0-1.85-.34 54.1 54.1 0 0 0-3-.06zM12 6.86a5.13 5.13 0 1 1 0 10.27 5.13 5.13 0 0 1 0-10.27zm0 1.8a3.33 3.33 0 1 0 0 6.67 3.33 3.33 0 0 0 0-6.67zm5.33-3.2a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z">
+                                                    </path>
+                                                </svg>
+                                            </a>
+                                        <li><a rel=noopener target=_blank href=""
+                                            title="Le Louvre sur Twitter"
+                                            class=SocialLinks_link>
+                                                <svg viewBox="0 0 24 24"
+                                                width=1em height=1em focusable=false
+                                                aria-hidden=true class=SvgRWrapper>
+                                                    <path
+                                                    d="M22 5.88c-.75.37-1.5.5-2.38.62.88-.5 1.5-1.25 1.75-2.25a8.2 8.2 0 0 1-2.62 1 4.36 4.36 0 0 0-3-1.25c-2.13 0-4 1.88-4 4.13 0 .37 0 .62.13.87a11.5 11.5 0 0 1-8.5-4.25 3.8 3.8 0 0 0-.5 2.13 4.1 4.1 0 0 0 1.87 3.37c-.63 0-1.25-.25-1.88-.5 0 2 1.38 3.63 3.25 4-.37.13-.75.13-1.12.13-.25 0-.5 0-.75-.13.5 1.63 2 2.88 3.88 2.88A7.95 7.95 0 0 1 3 18.38H2a12.2 12.2 0 0 0 6.25 1.87c7.5 0 11.63-6.25 11.63-11.63v-.5A7.27 7.27 0 0 0 22 5.88z">
+                                                    </path>
+                                                </svg>
+                                            </a>
+                                        <li><a rel=noopener target=_blank href=""
+                                            title="Le Louvre sur Youtube"
+                                            class=SocialLinks_link>
+                                                <svg viewBox="0 0 24 24"
+                                                width=1em height=1em focusable=false
+                                                aria-hidden=true class=SvgRWrapper>
+                                                    <path
+                                                    d="M10.03 15.38V8.62L15.97 12l-5.94 3.38zm13.2-8.88a2.85 2.85 0 0 0-2-2.02C19.46 4 12.35 4 12.35 4s-7.1 0-8.87.48a2.85 2.85 0 0 0-2 2.02C1 8.28 1 12 1 12s0 3.72.47 5.5a2.85 2.85 0 0 0 2.01 2.02c1.77.48 8.88.48 8.88.48s7.1 0 8.87-.48a2.85 2.85 0 0 0 2-2.02c.48-1.78.48-5.5.48-5.5s0-3.72-.47-5.5z">
+                                                    </path>
+                                                </svg>
+                                            </a>
+                                        <li><a rel=noopener target=_blank href=""
+                                            title="Le Louvre sur Pinterest"
+                                            class=SocialLinks_link>
+                                                <svg viewBox="0 0 24 24"
+                                                width=1em height=1em focusable=false
+                                                aria-hidden=true class=SvgRWrapper>
+                                                    <path
+                                                        d="M12 2a10 10 0 0 0-3.64 19.3c-.1-.79-.17-2 .03-2.87l1.17-4.97s-.3-.6-.3-1.48c0-1.39.81-2.42 1.82-2.42.85 0 1.27.64 1.27 1.4 0 .86-.55 2.14-.84 3.33-.24 1 .5 1.81 1.49 1.81 1.78 0 3.14-1.87 3.14-4.57 0-2.4-1.72-4.06-4.18-4.06a4.33 4.33 0 0 0-4.52 4.33c0 .86.33 1.78.74 2.28.08.1.09.19.06.29l-.28 1.13c-.04.18-.15.23-.33.14-1.26-.59-2.04-2.4-2.04-3.88 0-3.15 2.3-6.04 6.62-6.04 3.46 0 6.17 2.46 6.17 5.77 0 3.45-2.18 6.22-5.2 6.22-1 0-1.96-.53-2.28-1.15l-.63 2.37a11 11 0 0 1-1.24 2.63A10 10 0 1 0 12 2z">
+                                                    </path>
+                                                </svg>
+                                            </a>
+                                        <li><a rel=noopener target=_blank href=""
+                                            title="Le Louvre sur Linkedin"
+                                            class=SocialLinks_link>
+                                                <svg viewBox="0 0 24 24"
+                                                width=1em height=1em focusable=false
+                                                aria-hidden=true class=SvgRWrapper>
+                                                    <path
+                                                    d="M6.44 8.2a1.74 1.74 0 1 0 0-3.47 1.74 1.74 0 0 0 0 3.47m-1.51 6.08v4.58c0 .16.03.23.2.23h2.62c.16 0 .2-.06.2-.21v-9.2c0-.16-.06-.2-.22-.2H5.16c-.18 0-.22.05-.22.23v4.57m7.74-3.55V9.7c0-.18-.05-.23-.22-.22H10c-.25 0-.25 0-.25.24v9.12c0 .2.06.25.24.25h2.53c.25 0 .25 0 .25-.25v-4.59c0-.32.03-.64.08-.95.12-.64.42-1.17 1.1-1.34.21-.05.44-.06.65-.06.72.01 1.16.35 1.32 1.04.09.38.12.79.12 1.18a371 371 0 0 1 0 4.72c0 .19.06.25.25.25h2.53c.18 0 .25-.05.24-.24 0-1.83.02-3.65-.01-5.47-.01-.6-.1-1.22-.23-1.81-.24-1.06-.86-1.84-1.94-2.14-.38-.1-.77-.13-1.16-.18a3.08 3.08 0 0 0-1.86.37c-.49.27-.88.64-1.2 1.1m-.68-8.71L20.51 2A1.46 1.46 0 0 1 22 3.43v17.15c0 .76-.6 1.39-1.36 1.42H3.5c-.7 0-1.24-.38-1.43-1.03a1.51 1.51 0 0 1-.06-.42V3.45c0-.8.61-1.43 1.42-1.44H12">
+                                                    </path>
+                                                </svg>
+                                            </a>
+                                    </ul>
+                                </div>
+                                <div class=Footer_Member>
+                                    <div class="Footer_Member_title montserrat-14">
+                                        <p role=heading aria-level=2>DEVENEZ AMIS<hr>
+                                    </div>
+                                    <div class=Footer_Member_logo><img srcset src=imags/48.png sizes alt="Amis du Louvre" width=422 height=80 loading=lazy>
+                                    </div>
+                                        <p class=LinkWithArrow_wrapper aria-hidden=false>
+                                            <a rel=noopener target=_blank href="" class=LinkWithArrow_link>
+                                                <span class="TextWithIcon TextWithIcon_right LinkWithArrow_text TextWithIcon_secondary">
+                                                    <span class=TextWithIcon_underline>Retrouves tous nos avantages</span>
+                                                    <span class=TextWithIcon_no-break>&nbsp;</span>
+                                                    <span class=TextWithIcon_icon>
+                                                        <svg viewBox="0 0 20 20" width=1em height=1em focusable=false aria-hidden=true class=SvgRWrapper>
+                                                            <path d="m11.8 3-1 1 5.4 5.5H1v1.4h15.2l-5.4 5.5 1 1 7.2-7.2z">
+                                                            </path>
+                                                        </svg>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </p>
+                                </div>
+                            </div>
+            </div>
+            <div class=grid>
+                <div class="Footer_BottomLinks roboto-p-12">
+                    <ul class=Footer_BottomLinks_content>
+                        <li class=Footer_BottomLinks_li><a class=Footer_BottomLinks_link href="">Mentions légales</a>
+                        <li class=Footer_BottomLinks_li><a class=Footer_BottomLinks_link href="">Données personnelles</a>
+                        <li class=Footer_BottomLinks_li><a class=Footer_BottomLinks_link href="">Cookies</a>
+                        <li class=Footer_BottomLinks_li><a class=Footer_BottomLinks_link href="">Accessibilité:partiellement conforme</a>
+                        <li class=Footer_BottomLinks_li><a class=Footer_BottomLinks_link href="">Crédits</a>
+                        <li class=Footer_BottomLinks_li><a class=Footer_BottomLinks_link href="">Crédits photographiques
+                        </button>
+                    </ul>
+                    <img class=Footer_BottomLinks_img srcset src=imags/49.jpg sizes alt width=428 height=129 loading=lazy decoding=async>
+                </div>
+            </div>
+        </footer>
+    </footer>
+</body>
+</html>
