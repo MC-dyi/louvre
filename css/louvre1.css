@@ -401,12 +401,13 @@ font-size: 1.2em
 }
 
 .MenuDrawer_MenuCardList_cardsMinor{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,calc(50%-16px));
     justify-content: space-between;
     align-items: center;
     grid-gap: 16px;
     grid-auto-rows: auto;
+}
+.MenuDrawer_MenuCardList_cardsMinor li{
+    display: inline-block;
 }
 
 .MenuDrawer_MenuCardListItem{
@@ -529,7 +530,7 @@ font-size: 1.2em
 }
 
 .MenuDrawer_MenuFooter{
-    padding-top: 48px;
+    padding-top: 10px;
 }
 
 .MenuDrawer_MenuFooter_socials{
@@ -602,4 +603,8 @@ font-size: 1.2em
 
 .BackToTop_button svg {
     display: block
+}
+.MenuDrawer_MenuFooter img{
+    margin-top: 20px;
+    margin-left: 200px;
 }
