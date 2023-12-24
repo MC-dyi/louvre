@@ -10,4 +10,3 @@ function syt1()
     navOn.classList.add('show-menu')
   }
 }
-
